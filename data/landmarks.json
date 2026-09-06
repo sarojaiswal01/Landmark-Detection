@@ -1,0 +1,2183 @@
+{
+  "Eiffel_Tower": {
+    "name": "Eiffel Tower",
+    "country": "France",
+    "city": "Paris",
+    "state_province": "Île-de-France",
+    "latitude": 48.8584,
+    "longitude": 2.2945,
+    "built_year": "1889",
+    "architect": "Stephen Sauvestre (designed by Gustave Eiffel)",
+    "architectural_style": "Wrought iron lattice tower / Industrial",
+    "unesco_status": "UNESCO World Heritage Site (1991)",
+    "historical_background": "Constructed for the 1889 World's Fair, it was initially criticized but became a global cultural icon.",
+    "interesting_facts": [
+      "The tower grows up to 15 cm in summer due to heat expansion.",
+      "It was meant to be dismantled after 20 years.",
+      "It is repainted by hand every 7 years."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (September-October)",
+    "entry_fee": "€11.30 to €28.30",
+    "opening_hours": "09:30 AM - 11:45 PM daily",
+    "tourist_tips": "Book tickets online months in advance to avoid lines.",
+    "nearby_attractions": [
+      "Champ de Mars",
+      "Trocadéro Gardens",
+      "Seine River Cruise"
+    ],
+    "official_website": "https://www.toureiffel.paris/"
+  },
+  "Taj_Mahal": {
+    "name": "Taj Mahal",
+    "country": "India",
+    "city": "Agra",
+    "state_province": "Uttar Pradesh",
+    "latitude": 27.1751,
+    "longitude": 78.0421,
+    "built_year": "1648",
+    "architect": "Ustad Ahmad Lahori",
+    "architectural_style": "Mughal Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1983)",
+    "historical_background": "Built by Emperor Shah Jahan in memory of his favorite wife Mumtaz Mahal.",
+    "interesting_facts": [
+      "It is perfectly symmetrical except for Shah Jahan's tomb.",
+      "The colors of the marble change depending on the time of day.",
+      "Over 20,000 artisans worked on its construction."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹50 (Indian), ₹1100 (Foreigners)",
+    "opening_hours": "Sunrise to Sunset (Closed on Fridays)",
+    "tourist_tips": "Visit at sunrise for the best light and fewer crowds.",
+    "nearby_attractions": [
+      "Agra Fort",
+      "Mehtab Bagh",
+      "Tomb of Itimad-ud-Daulah"
+    ],
+    "official_website": "https://www.tajmahal.gov.in/"
+  },
+  "Colosseum": {
+    "name": "Colosseum",
+    "country": "Italy",
+    "city": "Rome",
+    "state_province": "Lazio",
+    "latitude": 41.8902,
+    "longitude": 12.4922,
+    "built_year": "80 AD",
+    "architect": "Vespasian and Titus (Commissioned)",
+    "architectural_style": "Ancient Roman Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1980)",
+    "historical_background": "The largest ancient amphitheatre ever built, hosting gladiatorial contests and public spectacles.",
+    "interesting_facts": [
+      "It could hold between 50,000 and 80,000 spectators.",
+      "Originally known as the Flavian Amphitheatre.",
+      "It has been damaged by earthquakes and stone-robbers."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (September-October)",
+    "entry_fee": "€16 to €22",
+    "opening_hours": "08:30 AM - 07:15 PM (varies by season)",
+    "tourist_tips": "Buy a combined ticket with the Roman Forum to skip lines.",
+    "nearby_attractions": [
+      "Roman Forum",
+      "Palatine Hill",
+      "Arch of Constantine"
+    ],
+    "official_website": "https://parcocolosseo.it/"
+  },
+  "Pyramids_of_Giza": {
+    "name": "Pyramids of Giza",
+    "country": "Egypt",
+    "city": "Giza",
+    "state_province": "Giza Governorate",
+    "latitude": 29.9792,
+    "longitude": 31.1342,
+    "built_year": "c. 2560 BC",
+    "architect": "Hemiunu (for Khufu's pyramid)",
+    "architectural_style": "Ancient Egyptian Monumental",
+    "unesco_status": "UNESCO World Heritage Site (1979)",
+    "historical_background": "Royal tombs built for three Egyptian pharaohs during the Old Kingdom period.",
+    "interesting_facts": [
+      "The Great Pyramid is the oldest of the Seven Wonders of the Ancient World.",
+      "It was the tallest man-made structure for over 3,800 years.",
+      "Constructed using roughly 2.3 million stone blocks."
+    ],
+    "best_time_to_visit": "October to April",
+    "entry_fee": "EGP 240 (General admission)",
+    "opening_hours": "07:00 AM - 05:00 PM daily",
+    "tourist_tips": "Wear comfortable shoes and carry plenty of water.",
+    "nearby_attractions": [
+      "Great Sphinx",
+      "Solar Boat Museum",
+      "Saqqara Pyramids"
+    ],
+    "official_website": "https://egymonuments.gov.eg/"
+  },
+  "Statue_of_Liberty": {
+    "name": "Statue of Liberty",
+    "country": "United States",
+    "city": "New York City",
+    "state_province": "New York",
+    "latitude": 40.6892,
+    "longitude": -74.0445,
+    "built_year": "1886",
+    "architect": "Frédéric-Auguste Bartholdi (Sculptor), Gustave Eiffel (Engineer)",
+    "architectural_style": "Neoclassical / Copper sculpture",
+    "unesco_status": "UNESCO World Heritage Site (1984)",
+    "historical_background": "A gift from the people of France to the United States to celebrate freedom and democracy.",
+    "interesting_facts": [
+      "The green color is due to the natural weathering of copper.",
+      "The statue represents Libertas, the Roman goddess of liberty.",
+      "The torch was originally used as a lighthouse beacon."
+    ],
+    "best_time_to_visit": "Spring or Fall (midweek)",
+    "entry_fee": "Free (Ferry ticket required: ~$24)",
+    "opening_hours": "08:30 AM - 04:00 PM daily",
+    "tourist_tips": "Book crown access tickets several months in advance.",
+    "nearby_attractions": [
+      "Ellis Island",
+      "Battery Park",
+      "One World Observatory"
+    ],
+    "official_website": "https://www.nps.gov/stli/"
+  },
+  "Machu_Picchu": {
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "city": "Aguas Calientes",
+    "state_province": "Cusco Region",
+    "latitude": -13.1631,
+    "longitude": -72.545,
+    "built_year": "c. 1450",
+    "architect": "Inca Builders (Commissioned by Pachacuti)",
+    "architectural_style": "Inca Polished Dry-Stone (Ashlar)",
+    "unesco_status": "UNESCO World Heritage Site (1983)",
+    "historical_background": "An Inca citadel set high in the Andes mountains, abandoned and later rediscovered in 1911.",
+    "interesting_facts": [
+      "Built without using wheels, mortar, or draft animals.",
+      "The stones are cut so precisely that a knife blade cannot fit between them.",
+      "It serves as an astronomical observatory."
+    ],
+    "best_time_to_visit": "May to October (Dry season)",
+    "entry_fee": "PEN 152 (~USD $40)",
+    "opening_hours": "06:00 AM - 05:30 PM daily",
+    "tourist_tips": "Acclimatize in Cusco for a few days to avoid altitude sickness.",
+    "nearby_attractions": [
+      "Huayna Picchu",
+      "Intipunku (Sun Gate)",
+      "Sacred Valley"
+    ],
+    "official_website": "https://www.machupicchu.gob.pe/"
+  },
+  "Great_Wall_of_China": {
+    "name": "Great Wall of China",
+    "country": "China",
+    "city": "Beijing (nearest major city)",
+    "state_province": "Various",
+    "latitude": 40.4319,
+    "longitude": 116.5704,
+    "built_year": "c. 221 BC - 1644 AD",
+    "architect": "Various Chinese Dynasties",
+    "architectural_style": "Ancient Chinese Military Fortification",
+    "unesco_status": "UNESCO World Heritage Site (1987)",
+    "historical_background": "A vast series of fortifications built across historical northern borders to protect against invasions.",
+    "interesting_facts": [
+      "Contrary to myth, it is not easily visible from space without magnification.",
+      "It is the longest man-made structure in the world.",
+      "Glutinous rice flour was used in the mortar for stability."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (September-October)",
+    "entry_fee": "CNY 40 (Mutianyu section)",
+    "opening_hours": "07:30 AM - 05:30 PM daily (varies by section)",
+    "tourist_tips": "Visit the Mutianyu or Jinshanling sections to avoid massive tourist crowds.",
+    "nearby_attractions": [
+      "Ming Tombs",
+      "Summer Palace",
+      "Olympic Green"
+    ],
+    "official_website": "http://www.badaling.cn/"
+  },
+  "Sydney_Opera_House": {
+    "name": "Sydney Opera House",
+    "country": "Australia",
+    "city": "Sydney",
+    "state_province": "New South Wales",
+    "latitude": -33.8568,
+    "longitude": 151.2153,
+    "built_year": "1973",
+    "architect": "Jørn Utzon",
+    "architectural_style": "Expressionist / Modernist",
+    "unesco_status": "UNESCO World Heritage Site (2007)",
+    "historical_background": "A world-renowned performing arts centre famed for its iconic sail-like roof structure.",
+    "interesting_facts": [
+      "The sails are covered in over 1 million self-cleaning Swedish tiles.",
+      "The architect resigned before construction was completed.",
+      "It has its own concert hall organ, the largest mechanical action organ in the world."
+    ],
+    "best_time_to_visit": "March to May (Autumn) or September to November (Spring)",
+    "entry_fee": "Free to walk around; tours start at AUD $43",
+    "opening_hours": "09:00 AM - 05:00 PM daily for tours",
+    "tourist_tips": "Take a guided tour to access the interior concert halls and learn its history.",
+    "nearby_attractions": [
+      "Sydney Harbour Bridge",
+      "Royal Botanic Garden",
+      "The Rocks"
+    ],
+    "official_website": "https://www.sydneyoperahouse.com/"
+  },
+  "Stonehenge": {
+    "name": "Stonehenge",
+    "country": "United Kingdom",
+    "city": "Salisbury",
+    "state_province": "Wiltshire",
+    "latitude": 51.1789,
+    "longitude": -1.8262,
+    "built_year": "c. 3000 BC - 2000 BC",
+    "architect": "Neolithic Britons",
+    "architectural_style": "Megalithic Stone Circle",
+    "unesco_status": "UNESCO World Heritage Site (1986)",
+    "historical_background": "A prehistoric monument consisting of an outer ring of vertical sarsen standing stones.",
+    "interesting_facts": [
+      "The bluestones were transported from Wales, over 150 miles away.",
+      "It is aligned with the sunrise on the summer solstice.",
+      "Its exact purpose remains one of history's greatest mysteries."
+    ],
+    "best_time_to_visit": "June (for Solstice) or late Spring/early Autumn",
+    "entry_fee": "£20 to £23",
+    "opening_hours": "09:30 AM - 05:00 PM daily",
+    "tourist_tips": "Pre-book tickets online. It is often very windy, so dress warmly.",
+    "nearby_attractions": [
+      "Salisbury Cathedral",
+      "Old Sarum",
+      "Woodhenge"
+    ],
+    "official_website": "https://www.english-heritage.org.uk/visit/places/stonehenge/"
+  },
+  "Christ_the_Redeemer": {
+    "name": "Christ the Redeemer",
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "state_province": "Rio de Janeiro State",
+    "latitude": -22.9519,
+    "longitude": -43.2105,
+    "built_year": "1931",
+    "architect": "Heitor da Silva Costa, Paul Landowski (Sculptor)",
+    "architectural_style": "Art Deco",
+    "unesco_status": "UNESCO World Heritage Site (as part of Rio, 2012)",
+    "historical_background": "A massive soapstone statue of Jesus Christ overlooking Rio de Janeiro from Mount Corcovado.",
+    "interesting_facts": [
+      "It is the largest Art Deco-style statue in the world.",
+      "The outer layers are made of thousands of triangular soapstone tiles.",
+      "It is frequently struck by lightning during storms."
+    ],
+    "best_time_to_visit": "September to November or March to May",
+    "entry_fee": "R$ 30 to R$ 110 (includes train/van transit)",
+    "opening_hours": "08:00 AM - 07:00 PM daily",
+    "tourist_tips": "Take the Cog Train through the Tijuca Rainforest to reach the top.",
+    "nearby_attractions": [
+      "Sugarloaf Mountain",
+      "Copacabana Beach",
+      "Tijuca National Park"
+    ],
+    "official_website": "https://www.tremdocorcovado.rio/"
+  },
+  "Golden_Gate_Bridge": {
+    "name": "Golden Gate Bridge",
+    "country": "United States",
+    "city": "San Francisco",
+    "state_province": "California",
+    "latitude": 37.8199,
+    "longitude": -122.4783,
+    "built_year": "1937",
+    "architect": "Joseph Strauss, Irving Morrow, Charles Ellis",
+    "architectural_style": "Art Deco / Suspension Bridge",
+    "unesco_status": "N/A",
+    "historical_background": "Spanning the Golden Gate strait, it connects San Francisco to Marin County.",
+    "interesting_facts": [
+      "The unique color is called International Orange, chosen for visibility in heavy fog.",
+      "It was the longest suspension bridge main span in the world until 1964.",
+      "It contains enough cable wire to circle the Earth three times."
+    ],
+    "best_time_to_visit": "September to November (clearest weather)",
+    "entry_fee": "Free for pedestrians/cyclists; Toll for southbound cars (~$9)",
+    "opening_hours": "24/7 (Pedestrian walkways open 5:00 AM - 6:30 PM/9:00 PM)",
+    "tourist_tips": "Walk or bike across from the South Vista Point for the best photo ops.",
+    "nearby_attractions": [
+      "Alcatraz Island",
+      "Marin Headlands",
+      "Golden Gate Park"
+    ],
+    "official_website": "https://www.goldengate.org/"
+  },
+  "Burj_Khalifa": {
+    "name": "Burj Khalifa",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "state_province": "Dubai",
+    "latitude": 25.1972,
+    "longitude": 55.2744,
+    "built_year": "2010",
+    "architect": "Adrian Smith (SOM)",
+    "architectural_style": "Neo-Futurism",
+    "unesco_status": "N/A",
+    "historical_background": "The tallest building and tallest free-standing structure in the world, symbolizing Dubai's global status.",
+    "interesting_facts": [
+      "It stands at an incredible height of 828 meters (2,717 feet).",
+      "The design is inspired by the Hymenocallis, a desert flower.",
+      "It holds the record for the highest outdoor observation deck."
+    ],
+    "best_time_to_visit": "November to February (Cooler weather)",
+    "entry_fee": "AED 169 to AED 553 (varies by deck level and time)",
+    "opening_hours": "24/7 for residents; Observation decks open 08:30 AM - Midnight",
+    "tourist_tips": "Book 'At the Top' tickets in advance to secure sunset slots.",
+    "nearby_attractions": [
+      "The Dubai Mall",
+      "Dubai Fountain",
+      "Dubai Opera"
+    ],
+    "official_website": "https://www.burjkhalifa.ae/"
+  },
+  "India_Gate": {
+    "name": "India Gate",
+    "country": "India",
+    "city": "New Delhi",
+    "state_province": "Delhi",
+    "latitude": 28.6129,
+    "longitude": 77.2295,
+    "built_year": "1931",
+    "architect": "Sir Edwin Lutyens",
+    "architectural_style": "Triumphal Arch / Memorial",
+    "unesco_status": "N/A",
+    "historical_background": "A war memorial dedicated to British Indian Army soldiers who died in World War I.",
+    "interesting_facts": [
+      "The names of over 13,000 soldiers are inscribed on the walls.",
+      "Features the Amar Jawan Jyoti (Flame of the Immortal Soldier) underneath the arch.",
+      "Inspired by the Arc de Triomphe in Paris."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "Free",
+    "opening_hours": "24/7",
+    "tourist_tips": "Visit in the evening when it is beautifully illuminated.",
+    "nearby_attractions": [
+      "Rashtrapati Bhavan",
+      "National Gallery of Modern Art",
+      "Connaught Place"
+    ],
+    "official_website": "https://www.delhitourism.gov.in/"
+  },
+  "Gateway_of_India": {
+    "name": "Gateway of India",
+    "country": "India",
+    "city": "Mumbai",
+    "state_province": "Maharashtra",
+    "latitude": 18.922,
+    "longitude": 72.8347,
+    "built_year": "1924",
+    "architect": "George Wittet",
+    "architectural_style": "Indo-Saracenic",
+    "unesco_status": "N/A",
+    "historical_background": "Built to commemorate the landing of King George V and Queen Mary in India in 1911.",
+    "interesting_facts": [
+      "It served as the ceremonial entrance to India for British viceroys.",
+      "The last British troops left India through this arch in 1948.",
+      "Overlooks the Arabian Sea."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "Free",
+    "opening_hours": "24/7",
+    "tourist_tips": "Take a ferry from the gateway to Elephanta Caves.",
+    "nearby_attractions": [
+      "The Taj Mahal Palace Hotel",
+      "Colaba Causeway",
+      "Elephanta Caves"
+    ],
+    "official_website": "https://www.maharashtratourism.gov.in/"
+  },
+  "Red_Fort": {
+    "name": "Red Fort",
+    "country": "India",
+    "city": "Old Delhi",
+    "state_province": "Delhi",
+    "latitude": 28.6562,
+    "longitude": 77.241,
+    "built_year": "1648",
+    "architect": "Ustad Ahmad Lahori",
+    "architectural_style": "Mughal Architecture",
+    "unesco_status": "UNESCO World Heritage Site (2007)",
+    "historical_background": "Constructed by Shah Jahan when he shifted the Mughal capital from Agra to Delhi.",
+    "interesting_facts": [
+      "Made of massive red sandstone walls.",
+      "The Prime Minister of India unfurls the national flag here on Independence Day.",
+      "It once housed the famous Koh-i-Noor diamond in the Peacock Throne."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹50 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "09:30 AM - 04:30 PM (Closed on Mondays)",
+    "tourist_tips": "Hire an official guide at the entrance to understand the history of the chambers.",
+    "nearby_attractions": [
+      "Chandni Chowk",
+      "Jama Masjid",
+      "Raj Ghat"
+    ],
+    "official_website": "https://www.delhitourism.gov.in/"
+  },
+  "Qutub_Minar": {
+    "name": "Qutub Minar",
+    "country": "India",
+    "city": "New Delhi",
+    "state_province": "Delhi",
+    "latitude": 28.5245,
+    "longitude": 77.1855,
+    "built_year": "1199 (Commenced by Qutb-ud-din Aibak)",
+    "architect": "Qutb-ud-din Aibak and successors",
+    "architectural_style": "Indo-Islamic Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1993)",
+    "historical_background": "A 73-meter tall minaret representing victory and Indo-Islamic building prowess.",
+    "interesting_facts": [
+      "It is the tallest brick minaret in the world.",
+      "The complex contains a famous rust-resistant iron pillar from the 4th century.",
+      "It features five distinct stories decorated with delicate carvings."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "07:00 AM - 09:00 PM daily",
+    "tourist_tips": "Check out the nearby unfinished Alai Minar, intended to be twice the height.",
+    "nearby_attractions": [
+      "Mehrauli Archaeological Park",
+      "Garden of Five Senses"
+    ],
+    "official_website": "https://www.delhitourism.gov.in/"
+  },
+  "Lotus_Temple": {
+    "name": "Lotus Temple",
+    "country": "India",
+    "city": "New Delhi",
+    "state_province": "Delhi",
+    "latitude": 28.5535,
+    "longitude": 77.2588,
+    "built_year": "1986",
+    "architect": "Fariborz Sahba",
+    "architectural_style": "Expressionist / Lotus petal shell",
+    "unesco_status": "N/A",
+    "historical_background": "A Bahá'í House of Worship notable for its flowerlike shape open to all religions.",
+    "interesting_facts": [
+      "Constructed using 27 free-standing marble petals.",
+      "The temple has won numerous architectural awards.",
+      "One of the most visited buildings in the world, attracting millions annually."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "Free",
+    "opening_hours": "09:00 AM - 05:30 PM (Winter) / 07:00 PM (Summer) (Closed on Mondays)",
+    "tourist_tips": "Silence must be maintained inside the prayer hall at all times.",
+    "nearby_attractions": [
+      "Kalkaji Devi Temple",
+      "Iskcon Temple"
+    ],
+    "official_website": "https://www.bahai.in/"
+  },
+  "Charminar": {
+    "name": "Charminar",
+    "country": "India",
+    "city": "Hyderabad",
+    "state_province": "Telangana",
+    "latitude": 17.3616,
+    "longitude": 78.4747,
+    "built_year": "1591",
+    "architect": "Mir Momin Astarabadi",
+    "architectural_style": "Islamic / Qutb Shahi",
+    "unesco_status": "Tentative List",
+    "historical_background": "Built to celebrate the end of a deadly plague in the city of Hyderabad.",
+    "interesting_facts": [
+      "The name translates to 'Four Minarets'.",
+      "Features a mosque on its top floor.",
+      "Located at the intersection of historic trade routes."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹40 (Indian), ₹300 (Foreigners)",
+    "opening_hours": "09:30 AM - 05:30 PM daily",
+    "tourist_tips": "Visit the bustling Lad Bazar nearby for traditional pearl and bangle shopping.",
+    "nearby_attractions": [
+      "Mecca Masjid",
+      "Chowmahalla Palace",
+      "Salar Jung Museum"
+    ],
+    "official_website": "https://www.telanganatourism.gov.in/"
+  },
+  "Mysore_Palace": {
+    "name": "Mysore Palace",
+    "country": "India",
+    "city": "Mysuru",
+    "state_province": "Karnataka",
+    "latitude": 12.3051,
+    "longitude": 76.6551,
+    "built_year": "1912",
+    "architect": "Henry Irwin",
+    "architectural_style": "Indo-Saracenic",
+    "unesco_status": "N/A",
+    "historical_background": "Official residence of the Wadiyar dynasty, who ruled Mysore state.",
+    "interesting_facts": [
+      "One of the most famous tourist attractions in India after the Taj Mahal.",
+      "Illuminated by nearly 100,000 lightbulbs on Sundays and holidays.",
+      "It replaces an older wooden palace that burnt down in 1897."
+    ],
+    "best_time_to_visit": "October to March (especially during Dasara festival)",
+    "entry_fee": "₹70 (Indian), ₹200 (Foreigners)",
+    "opening_hours": "10:00 AM - 05:30 PM daily",
+    "tourist_tips": "Do not miss the light and sound show held in the evening.",
+    "nearby_attractions": [
+      "Chamundi Hill Temple",
+      "Mysore Zoo",
+      "Philomena's Church"
+    ],
+    "official_website": "https://www.mysorepalace.karnataka.gov.in/"
+  },
+  "Hawa_Mahal": {
+    "name": "Hawa Mahal",
+    "country": "India",
+    "city": "Jaipur",
+    "state_province": "Rajasthan",
+    "latitude": 26.9239,
+    "longitude": 75.8267,
+    "built_year": "1799",
+    "architect": "Lal Chand Ustad",
+    "architectural_style": "Rajput Architecture",
+    "unesco_status": "UNESCO World Heritage Site (as part of Jaipur, 2019)",
+    "historical_background": "Built to allow royal women to observe street festivals without being seen by the public.",
+    "interesting_facts": [
+      "The name translates to 'Palace of Winds'.",
+      "Features 953 small windows (jharokhas) decorated with intricate latticework.",
+      "Constructed using pink and red sandstone."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹50 (Indian), ₹200 (Foreigners)",
+    "opening_hours": "09:00 AM - 05:00 PM daily",
+    "tourist_tips": "The front facade is best photographed from the cafes across the street.",
+    "nearby_attractions": [
+      "City Palace",
+      "Jantar Mantar",
+      "Amber Palace"
+    ],
+    "official_website": "https://www.tourism.rajasthan.gov.in/"
+  },
+  "Konark_Sun_Temple": {
+    "name": "Konark Sun Temple",
+    "country": "India",
+    "city": "Konark",
+    "state_province": "Odisha",
+    "latitude": 19.8876,
+    "longitude": 86.0945,
+    "built_year": "c. 1250",
+    "architect": "King Narasimhadeva I",
+    "architectural_style": "Kalinga Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1984)",
+    "historical_background": "A temple built in the shape of a monumental chariot dedicated to the Sun God Surya.",
+    "interesting_facts": [
+      "Features 24 stone-carved wheels, which act as accurate sundials.",
+      "Originally stood right on the shoreline of the Bay of Bengal.",
+      "Often referred to as the 'Black Pagoda'."
+    ],
+    "best_time_to_visit": "September to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "06:00 AM - 08:00 PM daily",
+    "tourist_tips": "Hire a guide to explain the astronomical significance of the wheel carvings.",
+    "nearby_attractions": [
+      "Chandrabhaga Beach",
+      "Konark Museum"
+    ],
+    "official_website": "https://www.odishatourism.gov.in/"
+  },
+  "Victoria_Memorial": {
+    "name": "Victoria Memorial",
+    "country": "India",
+    "city": "Kolkata",
+    "state_province": "West Bengal",
+    "latitude": 22.5448,
+    "longitude": 88.3426,
+    "built_year": "1921",
+    "architect": "William Emerson",
+    "architectural_style": "Indo-Saracenic / British Classicism",
+    "unesco_status": "N/A",
+    "historical_background": "Built in memory of Queen Victoria, it now serves as a museum and tourist landmark.",
+    "interesting_facts": [
+      "Constructed using white Makrana marble, the same marble used for the Taj Mahal.",
+      "The gardens cover 64 acres of land.",
+      "Features a bronze Angel of Victory atop the central dome."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹60 (Indian), ₹500 (Foreigners)",
+    "opening_hours": "10:00 AM - 06:00 PM (Museum) / Gardens open earlier",
+    "tourist_tips": "Spend time exploring the royal gallery paintings inside.",
+    "nearby_attractions": [
+      "St. Paul's Cathedral",
+      "Birla Planetarium",
+      "Maidan"
+    ],
+    "official_website": "https://www.victoriamemorial-cal.org/"
+  },
+  "Gol_Gumbaz": {
+    "name": "Gol Gumbaz",
+    "country": "India",
+    "city": "Vijayapura",
+    "state_province": "Karnataka",
+    "latitude": 16.8302,
+    "longitude": 75.736,
+    "built_year": "1656",
+    "architect": "Yaqut of Dabul",
+    "architectural_style": "Deccan Architecture",
+    "unesco_status": "Tentative List",
+    "historical_background": "Mausoleum of King Muhammad Adil Shah of the Adil Shahi dynasty.",
+    "interesting_facts": [
+      "Features the second largest dome in the world after St. Peter's Basilica.",
+      "Contains a 'Whispering Gallery' where even the softest sound is echoed eleven times.",
+      "Constructed without any central pillars."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹25 (Indian), ₹300 (Foreigners)",
+    "opening_hours": "10:00 AM - 05:00 PM daily",
+    "tourist_tips": "Arrive early to visit the Whispering Gallery before it gets too noisy.",
+    "nearby_attractions": [
+      "Ibrahim Rauza",
+      "Bijapur Fort"
+    ],
+    "official_website": "https://www.karnatakatourism.org/"
+  },
+  "Brihadeeswarar_Temple": {
+    "name": "Brihadeeswarar Temple",
+    "country": "India",
+    "city": "Thanjavur",
+    "state_province": "Tamil Nadu",
+    "latitude": 10.7828,
+    "longitude": 79.1322,
+    "built_year": "1010",
+    "architect": "Raja Raja Chola I (Patron)",
+    "architectural_style": "Dravidian Architecture",
+    "unesco_status": "UNESCO World Heritage Site (as part of Great Living Chola Temples, 1987)",
+    "historical_background": "A monumental Hindu temple dedicated to Shiva, exemplifying Chola architectural greatness.",
+    "interesting_facts": [
+      "The temple tower (Vimana) is 66 meters high.",
+      "The top stone (Kumbam) is carved from a single granite block weighing 80 tons.",
+      "Features a massive monolithic statue of Nandi (the sacred bull) at the entrance."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "Free",
+    "opening_hours": "06:00 AM - 12:30 PM, 04:00 PM - 08:30 PM daily",
+    "tourist_tips": "Look for the detailed ancient Tamil inscriptions carved into the temple base.",
+    "nearby_attractions": [
+      "Thanjavur Royal Palace",
+      "Saraswathi Mahal Library"
+    ],
+    "official_website": "https://www.tamilnadutourism.tn.gov.in/"
+  },
+  "Sanchi_Stupa": {
+    "name": "Sanchi Stupa",
+    "country": "India",
+    "city": "Sanchi",
+    "state_province": "Madhya Pradesh",
+    "latitude": 23.4792,
+    "longitude": 77.7397,
+    "built_year": "3rd Century BC",
+    "architect": "Commissioned by Emperor Ashoka",
+    "architectural_style": "Ancient Buddhist Monumental",
+    "unesco_status": "UNESCO World Heritage Site (1989)",
+    "historical_background": "One of the oldest stone structures in India, built to house relics of the Buddha.",
+    "interesting_facts": [
+      "The gateways (toranas) depict scenes from the Jataka tales of Buddha's life.",
+      "It is featured on the reverse side of the Indian 200 rupee note.",
+      "Survived centuries of neglect before restoration in the early 20th century."
+    ],
+    "best_time_to_visit": "November to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "06:30 AM - 06:30 PM daily",
+    "tourist_tips": "Spend time examining the beautiful carvings on the four decorative gateways.",
+    "nearby_attractions": [
+      "Udayagiri Caves",
+      "Sanchi Archaeological Museum"
+    ],
+    "official_website": "https://www.mp-tourism.com/"
+  },
+  "Ajanta_Caves": {
+    "name": "Ajanta Caves",
+    "country": "India",
+    "city": "Aurangabad (nearest major city)",
+    "state_province": "Maharashtra",
+    "latitude": 20.5519,
+    "longitude": 75.7031,
+    "built_year": "2nd Century BC - 480 AD",
+    "architect": "Buddhist Monks",
+    "architectural_style": "Rock-cut Buddhist Caves",
+    "unesco_status": "UNESCO World Heritage Site (1983)",
+    "historical_background": "A collection of 30 rock-cut Buddhist cave monuments famous for ancient masterpieces of painting.",
+    "interesting_facts": [
+      "The caves were lost for centuries before being rediscovered by a British officer hunting tigers in 1819.",
+      "The murals are considered masterpieces of Buddhist religious art.",
+      "Carved into a horseshoe-shaped cliff side along the Waghur river."
+    ],
+    "best_time_to_visit": "June to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "09:00 AM - 05:00 PM (Closed on Mondays)",
+    "tourist_tips": "Bring a flashlight as many of the cave interiors are dimly lit to preserve the paintings.",
+    "nearby_attractions": [
+      "Ellora Caves",
+      "Bibi Ka Maqbara"
+    ],
+    "official_website": "https://www.maharashtratourism.gov.in/"
+  },
+  "Ellora_Caves": {
+    "name": "Ellora Caves",
+    "country": "India",
+    "city": "Aurangabad (nearest major city)",
+    "state_province": "Maharashtra",
+    "latitude": 20.0268,
+    "longitude": 75.1771,
+    "built_year": "600 AD - 1000 AD",
+    "architect": "Rashtrakuta and Yadava Dynasties",
+    "architectural_style": "Rock-cut Hindu, Buddhist, and Jain Caves",
+    "unesco_status": "UNESCO World Heritage Site (1983)",
+    "historical_background": "A complex of 34 rock-cut temples representing religious harmony in ancient India.",
+    "interesting_facts": [
+      "Features the Kailash Temple, the largest single monolithic rock excavation in the world.",
+      "The Kailash temple was carved from the top down.",
+      "Features caves dedicated to three major religions: Buddhism, Hinduism, and Jainism."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "06:00 AM - 06:00 PM (Closed on Tuesdays)",
+    "tourist_tips": "Cave 16 (Kailash Temple) requires at least 2 hours to explore fully.",
+    "nearby_attractions": [
+      "Ajanta Caves",
+      "Daulatabad Fort",
+      "Grishneshwar Jyotirlinga"
+    ],
+    "official_website": "https://www.maharashtratourism.gov.in/"
+  },
+  "Humayuns_Tomb": {
+    "name": "Humayun's Tomb",
+    "country": "India",
+    "city": "New Delhi",
+    "state_province": "Delhi",
+    "latitude": 28.5933,
+    "longitude": 77.2507,
+    "built_year": "1572",
+    "architect": "Mirak Mirza Ghiyas",
+    "architectural_style": "Mughal Architecture / Garden Tomb",
+    "unesco_status": "UNESCO World Heritage Site (1993)",
+    "historical_background": "Commissioned by Humayun's first wife Empress Bega Begum, it was the first garden-tomb in India.",
+    "interesting_facts": [
+      "It inspired the architectural design of the Taj Mahal.",
+      "Built using red sandstone and white marble.",
+      "It sits within a large charbagh (four-quadrant garden) complex."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "06:00 AM - 06:00 PM daily",
+    "tourist_tips": "Visit in the late afternoon to catch the golden sunlight hitting the red sandstone.",
+    "nearby_attractions": [
+      "Nizamuddin Dargah",
+      "Sunder Nursery",
+      "Lodi Gardens"
+    ],
+    "official_website": "https://www.delhitourism.gov.in/"
+  },
+  "Meenakshi_Temple": {
+    "name": "Meenakshi Temple",
+    "country": "India",
+    "city": "Madurai",
+    "state_province": "Tamil Nadu",
+    "latitude": 9.9195,
+    "longitude": 78.1193,
+    "built_year": "1623 (Current structure reconstructed)",
+    "architect": "Nayyak Kings of Madurai",
+    "architectural_style": "Dravidian Architecture",
+    "unesco_status": "N/A",
+    "historical_background": "A historic Hindu temple complex dedicated to Meenakshi (a form of Parvati) and Sundareswarar (Shiva).",
+    "interesting_facts": [
+      "Features 14 gateway towers (gopurams), the tallest of which is 52 meters high.",
+      "The temple is covered in thousands of colorful stone figures of gods and demons.",
+      "Features a Hall of Thousand Pillars, where each pillar is intricately carved."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "Free (small fee for museum)",
+    "opening_hours": "05:00 AM - 12:30 PM, 04:00 PM - 10:00 PM daily",
+    "tourist_tips": "Be aware of strict dress codes (legs and shoulders must be covered).",
+    "nearby_attractions": [
+      "Thirumalai Nayakkar Palace",
+      "Koodal Azhagar Temple"
+    ],
+    "official_website": "https://maduraimeenakshi.org/"
+  },
+  "Golden_Temple": {
+    "name": "Golden Temple",
+    "country": "India",
+    "city": "Amritsar",
+    "state_province": "Punjab",
+    "latitude": 31.62,
+    "longitude": 74.8765,
+    "built_year": "1604 (Commenced by Guru Ram Das)",
+    "architect": "Guru Arjan",
+    "architectural_style": "Sikh Architecture",
+    "unesco_status": "N/A",
+    "historical_background": "Also known as Sri Harmandir Sahib, it is the spiritual focal point and holiest shrine of Sikhism.",
+    "interesting_facts": [
+      "The upper dome is covered with 750 kg of pure gold leaf.",
+      "Houses the Guru Ka Langar, a kitchen serving free hot meals to over 100,000 people daily regardless of faith.",
+      "Surrounded by a sacred pool called the Amrit Sarovar."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "Free",
+    "opening_hours": "24/7",
+    "tourist_tips": "Cover your head with a scarf and wash your feet at the entrance pool before entering.",
+    "nearby_attractions": [
+      "Jallianwala Bagh",
+      "Wagah Border (30 km away)"
+    ],
+    "official_website": "https://www.sgpc.net/"
+  },
+  "Nalanda_Ruins": {
+    "name": "Nalanda Ruins",
+    "country": "India",
+    "city": "Nalanda",
+    "state_province": "Bihar",
+    "latitude": 25.1378,
+    "longitude": 85.4419,
+    "built_year": "5th Century AD",
+    "architect": "Gupta Empire Kings",
+    "architectural_style": "Ancient Buddhist Monastic Complex",
+    "unesco_status": "UNESCO World Heritage Site (2016)",
+    "historical_background": "An ancient university and Buddhist monastery that was a renowned center of learning.",
+    "interesting_facts": [
+      "Widely considered the first residential university in the world.",
+      "Had a massive library containing millions of books, which allegedly burnt for months when sacked.",
+      "Attracted scholars from China, Korea, Tibet, and Central Asia."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "09:00 AM - 05:00 PM daily",
+    "tourist_tips": "Visit the nearby Nalanda Archaeological Museum for well-preserved sculptures and sealings.",
+    "nearby_attractions": [
+      "Kundalpur",
+      "Rajgir (15 km away)"
+    ],
+    "official_website": "https://www.bihartourism.gov.in/"
+  },
+  "Forbidden_City": {
+    "name": "Forbidden City",
+    "country": "China",
+    "city": "Beijing",
+    "state_province": "Beijing Municipality",
+    "latitude": 39.9169,
+    "longitude": 116.397,
+    "built_year": "1420",
+    "architect": "Kuai Xiang (Lead designer)",
+    "architectural_style": "Traditional Chinese Imperial Palace",
+    "unesco_status": "UNESCO World Heritage Site (1987)",
+    "historical_background": "The former Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty.",
+    "interesting_facts": [
+      "It consists of 980 surviving buildings and historically 9,999 rooms.",
+      "Served as the home of 24 Chinese emperors.",
+      "The walls are made of clay and sticky rice mortar."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (September-October)",
+    "entry_fee": "CNY 40 to CNY 60 (varies by season)",
+    "opening_hours": "08:30 AM - 05:00 PM (Closed on Mondays)",
+    "tourist_tips": "Passport or ID is required for entry; buy tickets online in advance.",
+    "nearby_attractions": [
+      "Tiananmen Square",
+      "Jingshan Park",
+      "Beihai Park"
+    ],
+    "official_website": "https://www.dpm.org.cn/"
+  },
+  "Mount_Fuji": {
+    "name": "Mount Fuji",
+    "country": "Japan",
+    "city": "Shizuoka/Yamanashi Prefectures",
+    "state_province": "Chubu Region",
+    "latitude": 35.3606,
+    "longitude": 138.7274,
+    "built_year": "N/A (Natural Landmark)",
+    "architect": "Nature",
+    "architectural_style": "Active stratovolcano",
+    "unesco_status": "UNESCO World Heritage Site (2013)",
+    "historical_background": "Japan's tallest mountain and an active volcano, long revered as a sacred site of artistic inspiration.",
+    "interesting_facts": [
+      "It has an exceptionally symmetrical cone shape.",
+      "It is one of Japan's 'Three Holy Mountains'.",
+      "The climbing season is very short, running from July to early September."
+    ],
+    "best_time_to_visit": "July to August (for climbing) or Winter (for snow-capped photography)",
+    "entry_fee": "Free (Climbing donation of ¥1000 encouraged)",
+    "opening_hours": "24/7 (trails depend on winter closures)",
+    "tourist_tips": "Lake Kawaguchiko offers some of the most iconic postcard views of the mountain.",
+    "nearby_attractions": [
+      "Fuji-Q Highland",
+      "Lake Kawaguchiko",
+      "Chureito Pagoda"
+    ],
+    "official_website": "https://www.fujisan-climb.jp/"
+  },
+  "Angkor_Wat": {
+    "name": "Angkor Wat",
+    "country": "Cambodia",
+    "city": "Siem Reap",
+    "state_province": "Siem Reap Province",
+    "latitude": 13.4125,
+    "longitude": 103.867,
+    "built_year": "12th Century AD",
+    "architect": "Suryavarman II",
+    "architectural_style": "Khmer Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1992)",
+    "historical_background": "Originally constructed as a Hindu temple for the god Vishnu, it gradually transformed into a Buddhist temple.",
+    "interesting_facts": [
+      "It is the largest religious monument in the world by land area.",
+      "It is depicted on Cambodia's national flag.",
+      "Oriented towards the west, which is unusual for Hindu temples."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "USD $37 (1-day pass)",
+    "opening_hours": "05:00 AM - 05:30 PM daily",
+    "tourist_tips": "Arrive at 5:00 AM to see the sunrise reflect in the lily ponds.",
+    "nearby_attractions": [
+      "Bayon Temple",
+      "Ta Prohm (Tomb Raider Temple)",
+      "Angkor Thom"
+    ],
+    "official_website": "https://www.angkorenterprise.gov.kh/"
+  },
+  "Petronas_Twin_Towers": {
+    "name": "Petronas Twin Towers",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "state_province": "Federal Territory of Kuala Lumpur",
+    "latitude": 3.1578,
+    "longitude": 101.712,
+    "built_year": "1998",
+    "architect": "Cesar Pelli",
+    "architectural_style": "Postmodern / Islamic geometric motifs",
+    "unesco_status": "N/A",
+    "historical_background": "Twin skyscrapers that were the tallest buildings in the world from 1998 to 2004.",
+    "interesting_facts": [
+      "They remain the tallest twin towers in the world.",
+      "Features a double-decker skybridge connecting the towers on the 41st and 42nd floors.",
+      "The design reflects Islamic architecture concepts like the Rub el Hizb."
+    ],
+    "best_time_to_visit": "December to February or June to August",
+    "entry_fee": "RM 98 (~USD $22) for skybridge access",
+    "opening_hours": "09:00 AM - 09:00 PM (Closed on Mondays)",
+    "tourist_tips": "Buy tickets online ahead of time as the daily visitation slot is capped.",
+    "nearby_attractions": [
+      "KLCC Park",
+      "Suria KLCC Mall",
+      "Aquaria KLCC"
+    ],
+    "official_website": "https://www.petronastwintowers.com.my/"
+  },
+  "Marina_Bay_Sands": {
+    "name": "Marina Bay Sands",
+    "country": "Singapore",
+    "city": "Singapore",
+    "state_province": "Downtown Core",
+    "latitude": 1.2834,
+    "longitude": 103.8607,
+    "built_year": "2010",
+    "architect": "Moshe Safdie",
+    "architectural_style": "Modernist / Mega-resort",
+    "unesco_status": "N/A",
+    "historical_background": "An integrated resort fronting Marina Bay, famous for its boat-shaped cantilevered sky park.",
+    "interesting_facts": [
+      "Features the world's longest elevated infinity swimming pool.",
+      "It is one of the most expensive standalone casino properties in the world.",
+      "The SkyPark is long enough to park four and a half A380 jumbo jets."
+    ],
+    "best_time_to_visit": "February to April",
+    "entry_fee": "Free for hotel guests; Observation deck ticket starts at SGD $26",
+    "opening_hours": "11:00 AM - 09:00 PM (SkyPark deck)",
+    "tourist_tips": "The infinity pool is strictly exclusive to hotel guests.",
+    "nearby_attractions": [
+      "Gardens by the Bay",
+      "ArtScience Museum",
+      "Singapore Flyer"
+    ],
+    "official_website": "https://www.marinabaysands.com/"
+  },
+  "Borobudur_Temple": {
+    "name": "Borobudur Temple",
+    "country": "Indonesia",
+    "city": "Magelang",
+    "state_province": "Central Java",
+    "latitude": -7.6079,
+    "longitude": 110.2038,
+    "built_year": "9th Century AD",
+    "architect": "Gunadharma (According to Javanese legend)",
+    "architectural_style": "Buddhist Mandala architecture",
+    "unesco_status": "UNESCO World Heritage Site (1991)",
+    "historical_background": "The world's largest Buddhist temple, abandoned in the 14th century and later restored.",
+    "interesting_facts": [
+      "Built with 72 openwork stupas, each containing a statue of Buddha.",
+      "Constructed out of volcanic stone blocks without mortar.",
+      "Has over 2,600 relief panels depicting Buddhist cosmology."
+    ],
+    "best_time_to_visit": "May to October (Dry season)",
+    "entry_fee": "USD $25 for foreigners",
+    "opening_hours": "06:30 AM - 04:30 PM daily",
+    "tourist_tips": "Hire a guide to explain the spiritual meaning behind the carvings on each level.",
+    "nearby_attractions": [
+      "Prambanan Temple",
+      "Mount Merapi"
+    ],
+    "official_website": "https://borobudurpark.com/"
+  },
+  "Shwedagon_Pagoda": {
+    "name": "Shwedagon Pagoda",
+    "country": "Myanmar",
+    "city": "Yangon",
+    "state_province": "Yangon Region",
+    "latitude": 16.7984,
+    "longitude": 96.1497,
+    "built_year": "c. 6th - 10th Century AD",
+    "architect": "Mon people",
+    "architectural_style": "Mon-Burmese Pagoda",
+    "unesco_status": "Tentative List",
+    "historical_background": "The most sacred Buddhist pagoda in Myanmar, believed to contain relics of four Buddhas.",
+    "interesting_facts": [
+      "The main stupa is plated with actual gold bars.",
+      "The crown is tipped with 5,448 diamonds and 2,317 rubies.",
+      "It is also known as the Great Dagon Pagoda."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "MMK 10,000 (~USD $8)",
+    "opening_hours": "04:00 AM - 10:00 PM daily",
+    "tourist_tips": "Dress respectfully; knees and shoulders must be covered. You must enter barefoot.",
+    "nearby_attractions": [
+      "Kandawgyi Lake",
+      "Bogyoke Market"
+    ],
+    "official_website": "https://www.shwedagonpagoda.com/"
+  },
+  "Taipei_101": {
+    "name": "Taipei 101",
+    "country": "Taiwan",
+    "city": "Taipei",
+    "state_province": "Xinyi District",
+    "latitude": 25.0337,
+    "longitude": 121.5648,
+    "built_year": "2004",
+    "architect": "C.Y. Lee & Partners",
+    "architectural_style": "Postmodern pagoda architecture",
+    "unesco_status": "N/A",
+    "historical_background": "A landmark supertall skyscraper that was the world's tallest building until 2010.",
+    "interesting_facts": [
+      "Features a giant 660-tonne steel pendulum damper that stabilizes it during typhoons.",
+      "Its sections are designed to resemble stalks of bamboo.",
+      "Has some of the world's fastest passenger elevators."
+    ],
+    "best_time_to_visit": "October to December (low rainfall)",
+    "entry_fee": "NTD 600 (~USD $20) for observation deck",
+    "opening_hours": "11:00 AM - 09:00 PM daily",
+    "tourist_tips": "Go to the 89th floor to view the giant wind damper in person.",
+    "nearby_attractions": [
+      "Elephant Mountain",
+      "Sun Yat-sen Memorial Hall"
+    ],
+    "official_website": "https://www.taipei-101.com.tw/"
+  },
+  "Gyeongbokgung_Palace": {
+    "name": "Gyeongbokgung Palace",
+    "country": "South Korea",
+    "city": "Seoul",
+    "state_province": "Jongno-gu",
+    "latitude": 37.5796,
+    "longitude": 126.977,
+    "built_year": "1395",
+    "architect": "Jeong Do-jeon",
+    "architectural_style": "Traditional Korean Palace architecture",
+    "unesco_status": "N/A",
+    "historical_background": "The main royal palace of the Joseon dynasty, serving as the seat of government.",
+    "interesting_facts": [
+      "Its name translates to 'Palace Greatly Blessed by Heaven'.",
+      "Largely destroyed during the Japanese invasions and rebuilt in the 19th century.",
+      "Hosts the famous Royal Guard Changing Ceremony."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (September-November)",
+    "entry_fee": "KRW 3,000 (~USD $2.50) / Free if wearing Hanbok",
+    "opening_hours": "09:00 AM - 05:00 PM / 06:30 PM (Closed on Tuesdays)",
+    "tourist_tips": "Rent a traditional Korean Hanbok nearby for free entry and great photos.",
+    "nearby_attractions": [
+      "Bukchon Hanok Village",
+      "Insadong",
+      "Gwanghwamun Plaza"
+    ],
+    "official_website": "https://www.royalpalace.go.kr/"
+  },
+  "Big_Ben": {
+    "name": "Big Ben",
+    "country": "United Kingdom",
+    "city": "London",
+    "state_province": "Greater London",
+    "latitude": 51.5007,
+    "longitude": -0.1246,
+    "built_year": "1859",
+    "architect": "Augustus Pugin, Charles Barry",
+    "architectural_style": "Gothic Revival",
+    "unesco_status": "UNESCO World Heritage Site (as part of Palace of Westminster, 1987)",
+    "historical_background": "The clock tower of the Palace of Westminster, officially renamed Elizabeth Tower in 2012.",
+    "interesting_facts": [
+      "Big Ben is actually the nickname for the giant bell inside, not the tower itself.",
+      "The tower leans slightly to the northwest.",
+      "The clock face features Latin inscription: 'Domine Salvam Fac Reginam Nostram Victoriam Primam'."
+    ],
+    "best_time_to_visit": "Spring or Summer",
+    "entry_fee": "Free to view; Tours for UK residents require booking via MP",
+    "opening_hours": "24/7 (Exterior)",
+    "tourist_tips": "Westminster Bridge is the best vantage point for taking photos.",
+    "nearby_attractions": [
+      "Palace of Westminster",
+      "Westminster Abbey",
+      "London Eye"
+    ],
+    "official_website": "https://www.parliament.uk/bigben/"
+  },
+  "Leaning_Tower_of_Pisa": {
+    "name": "Leaning Tower of Pisa",
+    "country": "Italy",
+    "city": "Pisa",
+    "state_province": "Tuscany",
+    "latitude": 43.723,
+    "longitude": 10.3966,
+    "built_year": "1372 (Commenced in 1173)",
+    "architect": "Bonanno Pisano (attributed)",
+    "architectural_style": "Romanesque",
+    "unesco_status": "UNESCO World Heritage Site (1987)",
+    "historical_background": "The freestanding bell tower of Pisa Cathedral, famous for its unintended tilt.",
+    "interesting_facts": [
+      "The lean began during construction due to soft ground and poor foundations.",
+      "It leans at an angle of about 3.97 degrees.",
+      "Engineers stabilized the tower in the 1990s to prevent collapse."
+    ],
+    "best_time_to_visit": "Spring or Autumn",
+    "entry_fee": "€20 to climb the tower",
+    "opening_hours": "09:00 AM - 08:00 PM daily",
+    "tourist_tips": "Climbing requires booking a timed ticket online. Expect high queues for photo poses.",
+    "nearby_attractions": [
+      "Pisa Cathedral",
+      "Battistero di San Giovanni"
+    ],
+    "official_website": "https://www.opapisa.it/"
+  },
+  "Arc_de_Triomphe": {
+    "name": "Arc de Triomphe",
+    "country": "France",
+    "city": "Paris",
+    "state_province": "Île-de-France",
+    "latitude": 48.8738,
+    "longitude": 2.295,
+    "built_year": "1836",
+    "architect": "Jean Chalgrin",
+    "architectural_style": "Neoclassical",
+    "unesco_status": "N/A",
+    "historical_background": "Built to honor those who fought and died for France in the French Revolutionary and Napoleonic Wars.",
+    "interesting_facts": [
+      "Stands at the center of the Place Charles de Gaulle, where 12 avenues meet.",
+      "Beneath its vault lies the Tomb of the Unknown Soldier from WWI.",
+      "The names of French victories and generals are inscribed on the walls."
+    ],
+    "best_time_to_visit": "Spring or Fall",
+    "entry_fee": "€13 to access the roof",
+    "opening_hours": "10:00 AM - 11:00 PM daily",
+    "tourist_tips": "Do NOT try to cross the massive roundabout on foot; use the pedestrian underground tunnels instead.",
+    "nearby_attractions": [
+      "Champs-Élysées",
+      "Eiffel Tower",
+      "Place de la Concorde"
+    ],
+    "official_website": "https://www.paris-arc-de-triomphe.fr/"
+  },
+  "Louvre_Museum": {
+    "name": "Louvre Museum",
+    "country": "France",
+    "city": "Paris",
+    "state_province": "Île-de-France",
+    "latitude": 48.8606,
+    "longitude": 2.3376,
+    "built_year": "1793 (Opened as museum)",
+    "architect": "Pierre Lescot (original palace), I.M. Pei (Glass Pyramid)",
+    "architectural_style": "French Renaissance / Modernist Glass Pyramid",
+    "unesco_status": "UNESCO World Heritage Site (1991)",
+    "historical_background": "The world's largest art museum, housed in the historic Louvre Palace.",
+    "interesting_facts": [
+      "Housed the Mona Lisa, Venus de Milo, and Winged Victory.",
+      "It would take 100 days to see every piece of art if you spent 30 seconds on each.",
+      "Originally built as a fortress in the 12th century."
+    ],
+    "best_time_to_visit": "Spring or Fall (midweek evenings)",
+    "entry_fee": "€17 (Advance online booking)",
+    "opening_hours": "09:00 AM - 06:00 PM (Closed on Tuesdays)",
+    "tourist_tips": "Book a timed entry online. Use the Carrousel du Louvre underground entrance to avoid the long pyramid lines.",
+    "nearby_attractions": [
+      "Jardin des Tuileries",
+      "Musée d'Orsay",
+      "Palais Royal"
+    ],
+    "official_website": "https://www.louvre.fr/"
+  },
+  "Notre_Dame_Cathedral": {
+    "name": "Notre-Dame Cathedral",
+    "country": "France",
+    "city": "Paris",
+    "state_province": "Île-de-France",
+    "latitude": 48.853,
+    "longitude": 2.3499,
+    "built_year": "1260 (Commenced in 1163)",
+    "architect": "Maurice de Sully (Patron)",
+    "architectural_style": "French Gothic Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1991)",
+    "historical_background": "An iconic medieval cathedral famous for its pioneering flying buttresses and stained-glass rose windows.",
+    "interesting_facts": [
+      "Suffered a catastrophic fire in 2019 that destroyed its spire and roof.",
+      "The cathedral is the setting for Victor Hugo's novel 'The Hunchback of Notre-Dame'.",
+      "Features famous gargoyles and chimeras on its towers."
+    ],
+    "best_time_to_visit": "Spring or Autumn",
+    "entry_fee": "Free (temporarily closed to public for post-fire restoration)",
+    "opening_hours": "Reopening scheduled for December 2024",
+    "tourist_tips": "Check the progress of the rebuilding from the Pont de l'Archevêché.",
+    "nearby_attractions": [
+      "Sainte-Chapelle",
+      "Île de la Cité",
+      "Latin Quarter"
+    ],
+    "official_website": "https://www.notredamedeparis.fr/"
+  },
+  "Tower_Bridge": {
+    "name": "Tower Bridge",
+    "country": "United Kingdom",
+    "city": "London",
+    "state_province": "Greater London",
+    "latitude": 51.5055,
+    "longitude": -0.0754,
+    "built_year": "1894",
+    "architect": "Horace Jones, John Wolfe Barry",
+    "architectural_style": "Victorian Gothic",
+    "unesco_status": "N/A",
+    "historical_background": "A combined bascule and suspension bridge crossing the River Thames near the Tower of London.",
+    "interesting_facts": [
+      "The bridge lifts (bascules) are raised about 1,000 times a year to let ships pass.",
+      "Features high-level glass-floor walkways with views of the river.",
+      "Historically run by steam engines, now powered by electro-hydraulics."
+    ],
+    "best_time_to_visit": "Spring or Summer",
+    "entry_fee": "Free to walk across; Exhibition/walkway ticket is £11.40",
+    "opening_hours": "09:30 AM - 06:00 PM (Exhibition)",
+    "tourist_tips": "Check the lift schedule online to see the bridge lift in action.",
+    "nearby_attractions": [
+      "Tower of London",
+      "The Shard",
+      "HMS Belfast"
+    ],
+    "official_website": "https://www.towerbridge.org.uk/"
+  },
+  "Buckingham_Palace": {
+    "name": "Buckingham Palace",
+    "country": "United Kingdom",
+    "city": "London",
+    "state_province": "Greater London",
+    "latitude": 51.5014,
+    "longitude": -0.1419,
+    "built_year": "1703 (Expanded in 19th Century)",
+    "architect": "John Nash, Edward Blore",
+    "architectural_style": "Neoclassical",
+    "unesco_status": "N/A",
+    "historical_background": "The official London residence and administrative headquarters of the British monarch.",
+    "interesting_facts": [
+      "Features 775 rooms, including 19 State Rooms.",
+      "If the Royal Standard flag is flying, the monarch is in residence; if the Union Jack is flying, they are not.",
+      "Hosts the famous Changing of the Guard ceremony."
+    ],
+    "best_time_to_visit": "Summer (July to September for State Room openings)",
+    "entry_fee": "Free to view exterior; State Room tickets are ~£30",
+    "opening_hours": "Exterior view 24/7; Changing of the Guard is 11:00 AM on select days",
+    "tourist_tips": "Arrive early for the Changing of the Guard to secure a spot near the gates.",
+    "nearby_attractions": [
+      "St. James's Park",
+      "Hyde Park",
+      "Westminster"
+    ],
+    "official_website": "https://www.rct.uk/visit/buckingham-palace"
+  },
+  "Acropolis_of_Athens": {
+    "name": "Acropolis of Athens",
+    "country": "Greece",
+    "city": "Athens",
+    "state_province": "Attica",
+    "latitude": 37.9715,
+    "longitude": 23.7257,
+    "built_year": "5th Century BC",
+    "architect": "Iktinos, Kallikrates, Phidias (Sculptor)",
+    "architectural_style": "Classical Ancient Greek / Doric & Ionic",
+    "unesco_status": "UNESCO World Heritage Site (1987)",
+    "historical_background": "An ancient citadel located on a rocky outcrop containing the Parthenon and other temples.",
+    "interesting_facts": [
+      "The Parthenon was built to honor the goddess Athena.",
+      "Features the Caryatids, statues of female figures serving as architectural columns.",
+      "Damaged by a Venetian mortar strike in 1687 during a siege."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (October)",
+    "entry_fee": "€20",
+    "opening_hours": "08:00 AM - 08:00 PM daily (varies by season)",
+    "tourist_tips": "Arrive at 8:00 AM sharp to beat the cruise ship crowds and intense midday heat.",
+    "nearby_attractions": [
+      "Acropolis Museum",
+      "Plaka",
+      "Temple of Olympian Zeus"
+    ],
+    "official_website": "http://odysseus.culture.gr/"
+  },
+  "Empire_State_Building": {
+    "name": "Empire State Building",
+    "country": "United States",
+    "city": "New York City",
+    "state_province": "New York",
+    "latitude": 40.7484,
+    "longitude": -73.9857,
+    "built_year": "1931",
+    "architect": "Shreve, Lamb & Harmon",
+    "architectural_style": "Art Deco",
+    "unesco_status": "N/A",
+    "historical_background": "A 102-story Art Deco skyscraper in Midtown Manhattan that was the tallest building for 40 years.",
+    "interesting_facts": [
+      "Completed in just 410 days during the Great Depression.",
+      "Its spire was originally designed to be a mooring mast for airships.",
+      "The tower lights change colors to celebrate different holidays."
+    ],
+    "best_time_to_visit": "Spring or Fall (midweek mornings)",
+    "entry_fee": "USD $44 to $79 depending on observation decks",
+    "opening_hours": "09:00 AM - 10:00 PM daily",
+    "tourist_tips": "Go late at night (after 10 PM) or early morning to avoid crowd wait times.",
+    "nearby_attractions": [
+      "Times Square",
+      "Bryant Park",
+      "Macy's Herald Square"
+    ],
+    "official_website": "https://www.esbnyc.com/"
+  },
+  "White_House": {
+    "name": "White House",
+    "country": "United States",
+    "city": "Washington, D.C.",
+    "state_province": "District of Columbia",
+    "latitude": 38.8977,
+    "longitude": -77.0365,
+    "built_year": "1800",
+    "architect": "James Hoban",
+    "architectural_style": "Neoclassical / Palladian",
+    "unesco_status": "N/A",
+    "historical_background": "The official residence and workplace of the President of the United States.",
+    "interesting_facts": [
+      "Burnt down by British forces in 1814 and subsequently rebuilt.",
+      "The West Wing was added by President Theodore Roosevelt.",
+      "Features 132 rooms and 35 bathrooms."
+    ],
+    "best_time_to_visit": "Spring or Autumn",
+    "entry_fee": "Free (Requires tour booking months in advance through embassy/congressperson)",
+    "opening_hours": "Tours generally scheduled mornings Tue-Sat",
+    "tourist_tips": "Public tours must be submitted up to 3 months in advance.",
+    "nearby_attractions": [
+      "National Mall",
+      "Washington Monument",
+      "Lafayette Square"
+    ],
+    "official_website": "https://www.whitehouse.gov/"
+  },
+  "Mount_Rushmore": {
+    "name": "Mount Rushmore",
+    "country": "United States",
+    "city": "Keystone",
+    "state_province": "South Dakota",
+    "latitude": 43.8791,
+    "longitude": -103.4591,
+    "built_year": "1941",
+    "architect": "Gutzon Borglum",
+    "architectural_style": "Colossal Granite Sculpture",
+    "unesco_status": "N/A",
+    "historical_background": "A colossal sculpture carved into the Black Hills of South Dakota depicting four US Presidents.",
+    "interesting_facts": [
+      "Depicts Presidents George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln.",
+      "The heads are approximately 60 feet tall.",
+      "Originally intended to carve the presidents from the waist up."
+    ],
+    "best_time_to_visit": "May to September",
+    "entry_fee": "Free (Parking fee of USD $10 applies)",
+    "opening_hours": "05:00 AM - 11:00 PM daily",
+    "tourist_tips": "Visit during the evening for the lighting ceremony.",
+    "nearby_attractions": [
+      "Crazy Horse Memorial",
+      "Custer State Park"
+    ],
+    "official_website": "https://www.nps.gov/moru/"
+  },
+  "Space_Needle": {
+    "name": "Space Needle",
+    "country": "United States",
+    "city": "Seattle",
+    "state_province": "Washington",
+    "latitude": 47.6205,
+    "longitude": -122.3493,
+    "built_year": "1962",
+    "architect": "Edward E. Carlson, John Graham Jr.",
+    "architectural_style": "Googie / Mid-century Modern",
+    "unesco_status": "N/A",
+    "historical_background": "Built as the centerpiece of the 1962 World's Fair, symbolizing Seattle's futuristic outlook.",
+    "interesting_facts": [
+      "Features the world's first revolving glass floor ('The Loupe').",
+      "Can withstand earthquakes of up to 9.0 magnitude.",
+      "The design represents a flying saucer on a slender tower."
+    ],
+    "best_time_to_visit": "June to September",
+    "entry_fee": "USD $32.50 to $39.00",
+    "opening_hours": "09:00 AM - 11:00 PM daily",
+    "tourist_tips": "Buy a combined ticket with Chihuly Garden and Glass next door to save money.",
+    "nearby_attractions": [
+      "Chihuly Garden and Glass",
+      "Museum of Pop Culture (MoPOP)"
+    ],
+    "official_website": "https://www.spaceneedle.com/"
+  },
+  "CN_Tower": {
+    "name": "CN Tower",
+    "country": "Canada",
+    "city": "Toronto",
+    "state_province": "Ontario",
+    "latitude": 43.6426,
+    "longitude": -79.3871,
+    "built_year": "1976",
+    "architect": "WZMH Architects",
+    "architectural_style": "Modernist / Concrete tower",
+    "unesco_status": "N/A",
+    "historical_background": "A signature icon of Toronto's skyline, built by Canadian National railway company.",
+    "interesting_facts": [
+      "Stands at 553.3 meters (1,815 feet) tall.",
+      "Was the world's tallest free-standing structure until 2007.",
+      "Offers the 'EdgeWalk', a hands-free walk on a ledge around the tower's main pod."
+    ],
+    "best_time_to_visit": "June to August",
+    "entry_fee": "CAD $43 for main observation deck",
+    "opening_hours": "09:30 AM - 09:00 PM daily",
+    "tourist_tips": "Try the famous Glass Floor, where you can look straight down to the street level.",
+    "nearby_attractions": [
+      "Ripley's Aquarium of Canada",
+      "Rogers Centre"
+    ],
+    "official_website": "https://www.cntower.ca/"
+  },
+  "Chichen_Itza": {
+    "name": "Chichen Itza",
+    "country": "Mexico",
+    "city": "Tinum",
+    "state_province": "Yucatán",
+    "latitude": 20.6843,
+    "longitude": -88.5678,
+    "built_year": "c. 600 AD",
+    "architect": "Mayan Builders",
+    "architectural_style": "Maya-Toltec Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1988)",
+    "historical_background": "A large pre-Columbian city built by the Maya people, famous for the El Castillo pyramid.",
+    "interesting_facts": [
+      "El Castillo has 365 steps, representing the days of the solar year.",
+      "During equinoxes, the shadow of the pyramid creates the illusion of a snake crawling down.",
+      "Climbing the pyramid was banned in 2006 for preservation."
+    ],
+    "best_time_to_visit": "November to April",
+    "entry_fee": "MXN 614 (~USD $35)",
+    "opening_hours": "08:00 AM - 05:00 PM daily",
+    "tourist_tips": "Arrive early before tour buses from Cancún arrive around 10:30 AM.",
+    "nearby_attractions": [
+      "Cenote Ik Kil",
+      "Valladolid"
+    ],
+    "official_website": "https://www.inah.gob.mx/"
+  },
+  "Iguazu_Falls": {
+    "name": "Iguazu Falls",
+    "country": "Argentina / Brazil",
+    "city": "Puerto Iguazú / Foz do Iguaçu",
+    "state_province": "Misiones / Paraná",
+    "latitude": -25.6953,
+    "longitude": -54.4367,
+    "built_year": "N/A (Natural Landmark)",
+    "architect": "Nature",
+    "architectural_style": "Waterfall system",
+    "unesco_status": "UNESCO World Heritage Site (1984)",
+    "historical_background": "The largest waterfall system in the world, straddling the border between Argentina and Brazil.",
+    "interesting_facts": [
+      "Consists of approximately 275 individual drops.",
+      "The most famous section is called the Devil's Throat (Garganta del Diablo).",
+      "Eleanor Roosevelt reportedly exclaimed 'Poor Niagara!' upon seeing them."
+    ],
+    "best_time_to_visit": "April to June or August to October",
+    "entry_fee": "ARS 20,000 (Argentina side) / BRL 100 (Brazil side)",
+    "opening_hours": "08:00 AM - 06:00 PM daily",
+    "tourist_tips": "Visit both sides: the Argentine side gets you close, the Brazilian side gives panoramic views.",
+    "nearby_attractions": [
+      "Parque das Aves",
+      "Itaipu Dam"
+    ],
+    "official_website": "https://www.iguazuargentina.com/"
+  },
+  "Moai_Statues": {
+    "name": "Moai Statues",
+    "country": "Chile",
+    "city": "Easter Island",
+    "state_province": "Valparaíso Region",
+    "latitude": -27.1127,
+    "longitude": -109.3497,
+    "built_year": "c. 1250 - 1500 AD",
+    "architect": "Rapa Nui People",
+    "architectural_style": "Megalithic Stone Sculptures",
+    "unesco_status": "UNESCO World Heritage Site (as part of Rapa Nui National Park, 1995)",
+    "historical_background": "Monolithic human figures carved by the Rapa Nui people, representing deified ancestors.",
+    "interesting_facts": [
+      "There are nearly 1,000 statues scattered across the island.",
+      "Most are carved from volcanic tuff from the Rano Raraku quarry.",
+      "They have full bodies underground, though only the heads are commonly seen."
+    ],
+    "best_time_to_visit": "December to March",
+    "entry_fee": "USD $80 for National Park ticket",
+    "opening_hours": "09:00 AM - 06:00 PM (varies by platform)",
+    "tourist_tips": "Do not touch the statues under any circumstances, as they are sacred.",
+    "nearby_attractions": [
+      "Anakena Beach",
+      "Rano Kau Crater"
+    ],
+    "official_website": "https://www.parquenationalrapanui.cl/"
+  },
+  "Sheikh_Zayed_Grand_Mosque": {
+    "name": "Sheikh Zayed Grand Mosque",
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "state_province": "Abu Dhabi",
+    "latitude": 24.4122,
+    "longitude": 54.4749,
+    "built_year": "2007",
+    "architect": "Yusef Abdelky",
+    "architectural_style": "Mughal, Moorish, and Arab Architecture",
+    "unesco_status": "N/A",
+    "historical_background": "The largest mosque in the UAE, built to represent Islamic architectural heritage.",
+    "interesting_facts": [
+      "Houses the world's largest hand-knotted carpet in the main prayer hall.",
+      "Features 82 domes and 24-carat gold-plated chandeliers.",
+      "It can accommodate over 40,000 worshippers."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "Free",
+    "opening_hours": "09:00 AM - 10:00 PM daily (Closed to tourists Fri morning)",
+    "tourist_tips": "Strict dress codes are enforced; women must wear an abaya (provided for free).",
+    "nearby_attractions": [
+      "Louvre Abu Dhabi",
+      "Ferrari World"
+    ],
+    "official_website": "https://www.szgmc.gov.ae/"
+  },
+  "Petra": {
+    "name": "Petra",
+    "country": "Jordan",
+    "city": "Wadi Musa",
+    "state_province": "Ma'an Governorate",
+    "latitude": 30.3285,
+    "longitude": 35.4444,
+    "built_year": "c. 312 BC",
+    "architect": "Nabataeans",
+    "architectural_style": "Rock-cut Nabataean-Hellenistic architecture",
+    "unesco_status": "UNESCO World Heritage Site (1985)",
+    "historical_background": "An ancient city carved directly into vibrant rose-red sandstone cliffs, serving as the Nabataean capital.",
+    "interesting_facts": [
+      "Known as the 'Rose City' due to the color of the stone.",
+      "Accessed through a narrow canyon called the Siq.",
+      "The most famous monument is Al-Khazneh (The Treasury)."
+    ],
+    "best_time_to_visit": "March to May or September to November",
+    "entry_fee": "JOD 50 (~USD $70)",
+    "opening_hours": "06:00 AM - 06:00 PM (varies by season)",
+    "tourist_tips": "Buy the Jordan Pass before arriving to save on visa and entry fees.",
+    "nearby_attractions": [
+      "Little Petra",
+      "Wadi Rum (100 km away)"
+    ],
+    "official_website": "https://www.visitpetra.jo/"
+  },
+  "Dome_of_the_Rock": {
+    "name": "Dome of the Rock",
+    "country": "Israel/Palestine",
+    "city": "Jerusalem",
+    "state_province": "Old City",
+    "latitude": 31.778,
+    "longitude": 35.2354,
+    "built_year": "691 AD",
+    "architect": "Raja ibn Haywah, Yazid ibn Salam",
+    "architectural_style": "Byzantine / Islamic Octagonal",
+    "unesco_status": "UNESCO World Heritage Site (1981)",
+    "historical_background": "An Islamic shrine situated on the Temple Mount, one of the oldest extant works of Islamic architecture.",
+    "interesting_facts": [
+      "The dome is covered in 80 kg of pure gold leaf.",
+      "It sits over the Foundation Stone, sacred to Muslims, Jews, and Christians.",
+      "Its octagonal structure is modeled after Byzantine churches."
+    ],
+    "best_time_to_visit": "Spring or Autumn",
+    "entry_fee": "Free (non-Muslims cannot enter the dome itself)",
+    "opening_hours": "Temple Mount grounds open for limited hours Mon-Thu",
+    "tourist_tips": "Dress highly conservatively; carry no religious items of other faiths.",
+    "nearby_attractions": [
+      "Western Wall",
+      "Church of the Holy Sepulchre",
+      "Mount of Olives"
+    ],
+    "official_website": "N/A"
+  },
+  "Great_Sphinx": {
+    "name": "Great Sphinx",
+    "country": "Egypt",
+    "city": "Giza",
+    "state_province": "Giza Governorate",
+    "latitude": 29.9753,
+    "longitude": 31.1376,
+    "built_year": "c. 2500 BC",
+    "architect": "Khafre (Commissioned)",
+    "architectural_style": "Monolithic Limestone Sculpture",
+    "unesco_status": "UNESCO World Heritage Site (1979)",
+    "historical_background": "A colossal statue of a mythical creature with the body of a lion and the head of a human.",
+    "interesting_facts": [
+      "It is the oldest known monumental sculpture in Egypt.",
+      "Carved out of a single ridge of limestone bedrock.",
+      "The nose was lost historically before the Napoleonic era."
+    ],
+    "best_time_to_visit": "October to April",
+    "entry_fee": "Included in Giza Plateau ticket",
+    "opening_hours": "07:00 AM - 05:00 PM daily",
+    "tourist_tips": "Walk down the causeway of Khafre's pyramid to get the best closeup photos.",
+    "nearby_attractions": [
+      "Giza Pyramids",
+      "Grand Egyptian Museum"
+    ],
+    "official_website": "https://egymonuments.gov.eg/"
+  },
+  "Table_Mountain": {
+    "name": "Table Mountain",
+    "country": "South Africa",
+    "city": "Cape Town",
+    "state_province": "Western Cape",
+    "latitude": -33.9628,
+    "longitude": 18.4098,
+    "built_year": "N/A (Natural Landmark)",
+    "architect": "Nature",
+    "architectural_style": "Flat-topped mountain",
+    "unesco_status": "UNESCO World Heritage Site (Cape Floral Region)",
+    "historical_background": "A prominent flat-topped mountain forming a landmark overlooking Cape Town.",
+    "interesting_facts": [
+      "It is one of the oldest mountains in the world.",
+      "The 'tablecloth' is a cloud formation that frequently covers the flat top.",
+      "Home to over 1,500 species of unique plants."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "Free to hike; Cableway ticket is ~ZAR 400 (~USD $22)",
+    "opening_hours": "08:00 AM - 08:30 PM (varies by wind conditions)",
+    "tourist_tips": "Check the cableway status online before leaving, as it closes due to wind.",
+    "nearby_attractions": [
+      "Signal Hill",
+      "Kirstenbosch National Botanical Garden",
+      "Robben Island"
+    ],
+    "official_website": "https://www.tablemountain.net/"
+  },
+  "Hassan_II_Mosque": {
+    "name": "Hassan II Mosque",
+    "country": "Morocco",
+    "city": "Casablanca",
+    "state_province": "Casablanca-Settat",
+    "latitude": 33.6067,
+    "longitude": -7.6326,
+    "built_year": "1993",
+    "architect": "Michel Pinseau",
+    "architectural_style": "Moorish / Moroccan Architecture",
+    "unesco_status": "N/A",
+    "historical_background": "Built to celebrate King Hassan II's 60th birthday, sitting on a promontory overlooking the Atlantic Ocean.",
+    "interesting_facts": [
+      "Features a 210-meter minaret, one of the tallest in the world.",
+      "The mosque features a retractable roof.",
+      "Built partly over the Atlantic Ocean, with a glass floor showing the waves below."
+    ],
+    "best_time_to_visit": "March to May or September to November",
+    "entry_fee": "MAD 130 (~USD $13) for foreigners",
+    "opening_hours": "09:00 AM - 04:00 PM for guided tour schedules",
+    "tourist_tips": "It is one of the few active mosques in Morocco open to non-Muslims via guided tours.",
+    "nearby_attractions": [
+      "La Corniche",
+      "Rick's Cafe"
+    ],
+    "official_website": "http://www.fmh2.ma/"
+  },
+  "Sydney_Harbour_Bridge": {
+    "name": "Sydney Harbour Bridge",
+    "country": "Australia",
+    "city": "Sydney",
+    "state_province": "New South Wales",
+    "latitude": -33.8523,
+    "longitude": 151.2108,
+    "built_year": "1932",
+    "architect": "John Bradfield (Engineer), Dorman Long (Builder)",
+    "architectural_style": "Through-arch bridge / Steel construction",
+    "unesco_status": "N/A",
+    "historical_background": "Nicknamed 'The Coathanger', it is a steel arch bridge across Sydney Harbour.",
+    "interesting_facts": [
+      "It is the tallest steel arch bridge in the world.",
+      "Features the BridgeClimb, allowing tourists to walk along the top of the arch.",
+      "Six million hand-driven rivets were used in its construction."
+    ],
+    "best_time_to_visit": "March to May or September to November",
+    "entry_fee": "Free to walk/cycle; BridgeClimb is ~$250+",
+    "opening_hours": "24/7",
+    "tourist_tips": "Take the free pedestrian walkway on the east side for great views of the Opera House.",
+    "nearby_attractions": [
+      "Sydney Opera House",
+      "Luna Park",
+      "Circular Quay"
+    ],
+    "official_website": "https://www.bridgeclimb.com/"
+  },
+  "Uluru": {
+    "name": "Uluru",
+    "country": "Australia",
+    "city": "Yulara (nearest town)",
+    "state_province": "Northern Territory",
+    "latitude": -25.3444,
+    "longitude": 131.0369,
+    "built_year": "N/A (Natural Landmark)",
+    "architect": "Nature",
+    "architectural_style": "Sandstone monolith",
+    "unesco_status": "UNESCO World Heritage Site (1987)",
+    "historical_background": "A massive sandstone monolith in the Red Centre of Australia, sacred to indigenous Anangu people.",
+    "interesting_facts": [
+      "Also known as Ayers Rock.",
+      "It appears to change color at sunrise and sunset, glowing red.",
+      "Climbing the rock was permanently banned in 2019 out of respect for its sacred nature."
+    ],
+    "best_time_to_visit": "May to September (cooler months)",
+    "entry_fee": "AUD $38 (3-day pass)",
+    "opening_hours": "Sunrise to Sunset (varies by season)",
+    "tourist_tips": "Do the 10 km base walk to appreciate the scale and caves of the monolith.",
+    "nearby_attractions": [
+      "Kata Tjuta (The Olgas)",
+      "Kings Canyon (300 km away)"
+    ],
+    "official_website": "https://parksaustralia.gov.au/uluru/"
+  },
+  "Sky_Tower": {
+    "name": "Sky Tower",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "state_province": "Auckland Region",
+    "latitude": -36.8485,
+    "longitude": 174.7633,
+    "built_year": "1997",
+    "architect": "Craig Craig Moller",
+    "architectural_style": "Modernist / Concrete tower",
+    "unesco_status": "N/A",
+    "historical_background": "A telecommunications and observation tower in Auckland, dominating the skyline.",
+    "interesting_facts": [
+      "Stands at 328 meters (1,076 feet) tall.",
+      "It is the tallest man-made structure in New Zealand.",
+      "Offers base-jumping simulator ('SkyJump') from the observation deck."
+    ],
+    "best_time_to_visit": "November to April",
+    "entry_fee": "NZD $40 for observation deck",
+    "opening_hours": "09:30 AM - 08:00 PM daily",
+    "tourist_tips": "Visit Orbit 360, the revolving restaurant at the top, for panoramic dining.",
+    "nearby_attractions": [
+      "Auckland Art Gallery",
+      "Viaduct Harbour"
+    ],
+    "official_website": "https://www.skycityauckland.co.nz/"
+  },
+  "Neuschwanstein_Castle": {
+    "name": "Neuschwanstein Castle",
+    "country": "Germany",
+    "city": "Schwangau",
+    "state_province": "Bavaria",
+    "latitude": 47.5576,
+    "longitude": 10.7498,
+    "built_year": "1886",
+    "architect": "Eduard Riedel",
+    "architectural_style": "Romanesque Revival",
+    "unesco_status": "Tentative List",
+    "historical_background": "A 19th-century historicist palace built for King Ludwig II as a personal retreat and homage to Richard Wagner.",
+    "interesting_facts": [
+      "It was the primary inspiration for Disneyland's Sleeping Beauty Castle.",
+      "King Ludwig II slept only 11 nights in the castle before his mysterious death.",
+      "Despite its medieval look, it had modern systems like running warm water and central heating."
+    ],
+    "best_time_to_visit": "May to September (warm weather) or Winter (for snow photos)",
+    "entry_fee": "€17.50",
+    "opening_hours": "09:00 AM - 06:00 PM daily",
+    "tourist_tips": "Tickets must be bought online in advance. Walk up to the Marienbrücke bridge for the best postcard view.",
+    "nearby_attractions": [
+      "Hohenschwangau Castle",
+      "Alpsee Lake"
+    ],
+    "official_website": "https://www.neuschwanstein.de/"
+  },
+  "Sagrada_Familia": {
+    "name": "Sagrada Família",
+    "country": "Spain",
+    "city": "Barcelona",
+    "state_province": "Catalonia",
+    "latitude": 41.4036,
+    "longitude": 2.1744,
+    "built_year": "Under Construction (Commenced in 1882)",
+    "architect": "Antoni Gaudí",
+    "architectural_style": "Art Nouveau / Catalan Modernism / Gothic",
+    "unesco_status": "UNESCO World Heritage Site (2005)",
+    "historical_background": "A large unfinished Roman Catholic minor basilica designed by the famous architect Antoni Gaudí.",
+    "interesting_facts": [
+      "It has been under construction for over 140 years, longer than it took to build the Egyptian pyramids.",
+      "Gaudí is buried in the crypt of the basilica.",
+      "The towers represent the Twelve Apostles, the Evangelists, the Virgin Mary, and Jesus."
+    ],
+    "best_time_to_visit": "Spring (April-May) or Autumn (September-October)",
+    "entry_fee": "€26 to €40 depending on tower access",
+    "opening_hours": "09:00 AM - 06:00 PM / 08:00 PM daily",
+    "tourist_tips": "Book tickets online 2-3 weeks in advance. Visit in the late afternoon when sunlight streams through the stained-glass windows.",
+    "nearby_attractions": [
+      "Recinte Modernista de Sant Pau",
+      "Casa Batlló",
+      "Park Güell"
+    ],
+    "official_website": "https://sagradafamilia.org/"
+  },
+  "Hagia_Sophia": {
+    "name": "Hagia Sophia",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "state_province": "Fatih",
+    "latitude": 41.0086,
+    "longitude": 28.9802,
+    "built_year": "537 AD",
+    "architect": "Isidore of Miletus, Anthemius of Tralles",
+    "architectural_style": "Byzantine / Ottoman Architecture",
+    "unesco_status": "UNESCO World Heritage Site (as part of Historic Areas of Istanbul, 1985)",
+    "historical_background": "Originally built as a Christian cathedral, it later became an Ottoman mosque, a museum, and is currently a mosque again.",
+    "interesting_facts": [
+      "It was the world's largest cathedral for nearly a thousand years.",
+      "Features a massive dome that was considered an engineering marvel of antiquity.",
+      "Christian mosaics and Islamic calligraphy discs sit side-by-side inside."
+    ],
+    "best_time_to_visit": "Spring or Autumn",
+    "entry_fee": "€25 for foreign visitors",
+    "opening_hours": "09:00 AM - 07:30 PM daily",
+    "tourist_tips": "Dress conservatively (head coverings for women, long pants/skirts for all). Non-Muslim tourists use a separate visitor entrance.",
+    "nearby_attractions": [
+      "Blue Mosque",
+      "Topkapi Palace",
+      "Basilica Cistern"
+    ],
+    "official_website": "https://muze.gov.tr/"
+  },
+  "Amer_Fort": {
+    "name": "Amer Fort",
+    "country": "India",
+    "city": "Jaipur",
+    "state_province": "Rajasthan",
+    "latitude": 26.9855,
+    "longitude": 75.8513,
+    "built_year": "1592",
+    "architect": "Raja Man Singh I",
+    "architectural_style": "Rajput / Mughal Architecture",
+    "unesco_status": "UNESCO World Heritage Site (as part of Hill Forts of Rajasthan, 2013)",
+    "historical_background": "A majestic fort situated on a hill, overlooking Maota Lake, serving as the seat of the Kachwaha clan.",
+    "interesting_facts": [
+      "Famed for its artistic Hindu style elements.",
+      "Contains the Sheesh Mahal (Mirror Palace), decorated with thousands of concave mirrors.",
+      "Connected to Jaigarh Fort by a subterranean tunnel."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹100 (Indian), ₹500 (Foreigners)",
+    "opening_hours": "08:00 AM - 05:30 PM (Day), 07:00 PM - 10:00 PM (Night)",
+    "tourist_tips": "Enjoy the sound and light show at the fort in the evening.",
+    "nearby_attractions": [
+      "Anokhi Museum",
+      "Jaigarh Fort",
+      "Nahargarh Fort"
+    ],
+    "official_website": "https://www.tourism.rajasthan.gov.in/"
+  },
+  "Hampi_Ruins": {
+    "name": "Hampi Ruins",
+    "country": "India",
+    "city": "Hampi",
+    "state_province": "Karnataka",
+    "latitude": 15.335,
+    "longitude": 76.46,
+    "built_year": "14th Century AD",
+    "architect": "Vijayanagara Kings",
+    "architectural_style": "Vijayanagara Architecture",
+    "unesco_status": "UNESCO World Heritage Site (1986)",
+    "historical_background": "The capital of the historic Vijayanagara Empire, left in ruins after being sacked in 1565.",
+    "interesting_facts": [
+      "Features the iconic stone chariot temple inside the Vittala Temple complex.",
+      "Hampi was the second largest city in the world in the 15th century.",
+      "Surrounded by a striking landscape of giant granite boulders."
+    ],
+    "best_time_to_visit": "October to February",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "08:00 AM - 06:00 PM daily",
+    "tourist_tips": "Rent a bicycle or auto-rickshaw to cover the vast ruins spread over 4100 hectares.",
+    "nearby_attractions": [
+      "Virupaksha Temple",
+      "Lotus Mahal",
+      "Matanga Hill"
+    ],
+    "official_website": "https://www.karnatakatourism.org/"
+  },
+  "Khajuraho_Temples": {
+    "name": "Khajuraho Temples",
+    "country": "India",
+    "city": "Khajuraho",
+    "state_province": "Madhya Pradesh",
+    "latitude": 24.8519,
+    "longitude": 79.9214,
+    "built_year": "c. 950 - 1050 AD",
+    "architect": "Chandela Dynasty Kings",
+    "architectural_style": "Nagara style Hindu-Jain Temples",
+    "unesco_status": "UNESCO World Heritage Site (1986)",
+    "historical_background": "A group of Hindu and Jain temples famous for their Nagara-style architectural symbolism and erotic sculptures.",
+    "interesting_facts": [
+      "Originally comprised 85 temples, of which 25 survive today.",
+      "Erotic sculptures make up only about 10% of the carvings, depicting life and spiritual union.",
+      "Constructed using sandstone block masonry without mortar."
+    ],
+    "best_time_to_visit": "October to March",
+    "entry_fee": "₹40 (Indian), ₹600 (Foreigners)",
+    "opening_hours": "06:00 AM - 06:00 PM daily",
+    "tourist_tips": "Focus your visit on the Western Group of temples, which contain the most spectacular carvings.",
+    "nearby_attractions": [
+      "Panna National Park",
+      "Raneh Falls"
+    ],
+    "official_website": "https://www.mp-tourism.com/"
+  },
+  "Tokyo_Tower": {
+    "name": "Tokyo Tower",
+    "country": "Japan",
+    "city": "Tokyo",
+    "state_province": "Minato Ward",
+    "latitude": 35.6586,
+    "longitude": 139.7454,
+    "built_year": "1958",
+    "architect": "Tachu Naito",
+    "architectural_style": "Lattice Tower (inspired by Eiffel Tower)",
+    "unesco_status": "N/A",
+    "historical_background": "A communication and observation tower that is a beloved landmark of post-war Japan's modern rebirth.",
+    "interesting_facts": [
+      "At 332.9 meters, it is taller than the Eiffel Tower but weighs half as much.",
+      "Painted in white and international orange to comply with aviation safety laws.",
+      "Features a foot-town amusement building at the base with shops and cafes."
+    ],
+    "best_time_to_visit": "Spring (Cherry blossoms) or Autumn",
+    "entry_fee": "¥900 to ¥3,000 depending on observatory decks",
+    "opening_hours": "09:00 AM - 10:30 PM daily",
+    "tourist_tips": "Zojo-ji Temple next door is the best spot to capture the tower framed with historic temple gates.",
+    "nearby_attractions": [
+      "Zojo-ji Temple",
+      "Roppongi Hills",
+      "Shiba Park"
+    ],
+    "official_website": "https://www.tokyotower.co.jp/"
+  },
+  "Burj_Al_Arab": {
+    "name": "Burj Al Arab",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "state_province": "Jumeirah",
+    "latitude": 25.1412,
+    "longitude": 55.1861,
+    "built_year": "1999",
+    "architect": "Tom Wright",
+    "architectural_style": "Neo-Futurism / Sail structure",
+    "unesco_status": "N/A",
+    "historical_background": "An ultra-luxury hotel designed to resemble the billowing sail of a traditional Arabic dhow.",
+    "interesting_facts": [
+      "Stands on an artificial island connected to the mainland by a bridge.",
+      "Often described as the world's only '7-star hotel' due to its level of service.",
+      "Features a helipad that has hosted famous events like Tiger Woods teeing off."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "Requires dining booking or guided tour booking (~AED 249) to enter",
+    "opening_hours": "24/7 (Access restricted to guests/tours)",
+    "tourist_tips": "Jumeirah Public Beach next door offers the best free photo views of the hotel exterior.",
+    "nearby_attractions": [
+      "Wild Wadi Waterpark",
+      "Madinat Jumeirah"
+    ],
+    "official_website": "https://www.jumeirah.com/en/stay/dubai/burj-al-arab-jumeirah"
+  },
+  "Merlion": {
+    "name": "Merlion",
+    "country": "Singapore",
+    "city": "Singapore",
+    "state_province": "Downtown Core",
+    "latitude": 1.2868,
+    "longitude": 103.8545,
+    "built_year": "1972",
+    "architect": "Lim Nang Seng (Sculptor)",
+    "architectural_style": "Modern / Concrete Sculpture",
+    "unesco_status": "N/A",
+    "historical_background": "A mythical creature with a lion's head and the body of a fish, serving as Singapore's mascot.",
+    "interesting_facts": [
+      "The fish body represents Singapore's origin as a fishing village (Temasek).",
+      "The lion head represents Singapore's original name, Singapura (Lion City).",
+      "Spouts water from its mouth into Marina Bay."
+    ],
+    "best_time_to_visit": "February to April (clearest weather)",
+    "entry_fee": "Free",
+    "opening_hours": "24/7",
+    "tourist_tips": "Visit at night to see the Merlion lit up and catch the Spectra light and water show across the bay.",
+    "nearby_attractions": [
+      "Marina Bay Sands",
+      "Gardens by the Bay",
+      "Esplanade"
+    ],
+    "official_website": "https://www.visitsingapore.com/"
+  },
+  "Victoria_Falls": {
+    "name": "Victoria Falls",
+    "country": "Zambia / Zimbabwe",
+    "city": "Livingstone / Victoria Falls Town",
+    "state_province": "Matabeleland North / Southern Province",
+    "latitude": -17.9243,
+    "longitude": 25.8572,
+    "built_year": "N/A (Natural Landmark)",
+    "architect": "Nature",
+    "architectural_style": "Waterfall system",
+    "unesco_status": "UNESCO World Heritage Site (1989)",
+    "historical_background": "One of the world's largest waterfalls, locally known as Mosi-oa-Tunya (The Smoke That Thunders).",
+    "interesting_facts": [
+      "Twice the height of Niagara Falls.",
+      "Forms the largest single sheet of flowing water in the world during high river levels.",
+      "Features 'Devil's Pool', a natural rock pool right at the edge where tourists can swim in dry season."
+    ],
+    "best_time_to_visit": "February to May (Peak flow) or September to December (Dry season, best for Devil's Pool)",
+    "entry_fee": "USD $30 to $50 for foreigners",
+    "opening_hours": "06:00 AM - 06:00 PM daily",
+    "tourist_tips": "Wear a waterproof jacket; the spray is so intense it feels like heavy rain and can damage electronic devices.",
+    "nearby_attractions": [
+      "Zambezi River Cruises",
+      "Chobe National Park (Botswana border close)"
+    ],
+    "official_website": "N/A"
+  },
+  "Blue_Mosque": {
+    "name": "Blue Mosque",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "state_province": "Fatih",
+    "latitude": 41.0054,
+    "longitude": 28.9768,
+    "built_year": "1616",
+    "architect": "Sedefkar Mehmed Agha",
+    "architectural_style": "Ottoman Classical / Islamic",
+    "unesco_status": "UNESCO World Heritage Site (as part of Historic Areas of Istanbul, 1985)",
+    "historical_background": "Also known as the Sultan Ahmed Mosque, famous for its grand scale and blue-tiled interior.",
+    "interesting_facts": [
+      "Nicknamed the 'Blue Mosque' because of the 20,000 hand-painted blue İznik tiles decorating its walls.",
+      "It is one of only a few mosques in Turkey with six minarets.",
+      "Built directly opposite Hagia Sophia to rival its grandeur."
+    ],
+    "best_time_to_visit": "Spring or Autumn",
+    "entry_fee": "Free",
+    "opening_hours": "08:30 AM - Sunrise (Closed to tourists during daily prayers)",
+    "tourist_tips": "Avoid visiting during the midday Friday prayers. Women must wear headscarves (borrow at entrance for free).",
+    "nearby_attractions": [
+      "Hagia Sophia",
+      "Hippodrome",
+      "Grand Bazaar"
+    ],
+    "official_website": "https://www.sultanahmetcamii.org/"
+  },
+  "Kremlin": {
+    "name": "Moscow Kremlin",
+    "country": "Russia",
+    "city": "Moscow",
+    "state_province": "Central Federal District",
+    "latitude": 55.752,
+    "longitude": 37.6175,
+    "built_year": "1495 (Current walls completed)",
+    "architect": "Italian Architects (commissioned by Ivan the Great)",
+    "architectural_style": "Russian Fortified Citadel / Byzantine influence",
+    "unesco_status": "UNESCO World Heritage Site (1990)",
+    "historical_background": "A fortified complex in the heart of Moscow, serving as the official residence of the President of Russia.",
+    "interesting_facts": [
+      "It is the largest active fortress in Europe.",
+      "Houses the Tsar Cannon and Tsar Bell, some of the largest in history.",
+      "Features five stars made of ruby glass atop the towers, which rotate in the wind."
+    ],
+    "best_time_to_visit": "May to September",
+    "entry_fee": "RUB 700 to RUB 1000",
+    "opening_hours": "10:00 AM - 05:00 PM (Closed on Thursdays)",
+    "tourist_tips": "Security is extremely high; pass through metal detectors at Kutafiya Tower entrance.",
+    "nearby_attractions": [
+      "Red Square",
+      "St. Basil's Cathedral",
+      "GUM Department Store"
+    ],
+    "official_website": "http://www.kreml.ru/"
+  },
+  "Sydney_Tower": {
+    "name": "Sydney Tower",
+    "country": "Australia",
+    "city": "Sydney",
+    "state_province": "New South Wales",
+    "latitude": -33.8705,
+    "longitude": 151.2087,
+    "built_year": "1981",
+    "architect": "Donald Crone",
+    "architectural_style": "Late Modernist / Steel tower",
+    "unesco_status": "N/A",
+    "historical_background": "Sydney's tallest structure and the second-tallest observation tower in the Southern Hemisphere.",
+    "interesting_facts": [
+      "Stands at 309 meters tall.",
+      "Supported by 56 cables that weigh 7 tons each.",
+      "Can withstand extreme earthquakes and high wind speeds."
+    ],
+    "best_time_to_visit": "March to May or September to November",
+    "entry_fee": "AUD $25 to $35",
+    "opening_hours": "10:00 AM - 08:00 PM daily",
+    "tourist_tips": "Do the Skywalk, a high-altitude outdoor tour on a glass-floor viewing platform.",
+    "nearby_attractions": [
+      "Darling Harbour",
+      "Hyde Park",
+      "Queen Victoria Building"
+    ],
+    "official_website": "https://www.sydneytowereye.com.au/"
+  },
+  "Grand_Palace": {
+    "name": "Grand Palace",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "state_province": "Phra Nakhon",
+    "latitude": 13.75,
+    "longitude": 100.4913,
+    "built_year": "1782",
+    "architect": "King Rama I",
+    "architectural_style": "Traditional Thai / European Renaissance blend",
+    "unesco_status": "N/A",
+    "historical_background": "The official ceremonial residence of the Kings of Thailand since 1782.",
+    "interesting_facts": [
+      "Contains the Temple of the Emerald Buddha (Wat Phra Kaew), the most sacred Buddhist temple in Thailand.",
+      "Constructed using gold leaf, colorful porcelain mosaics, and carved wood.",
+      "Guarded by massive statues of Yaksha (demon guardians)."
+    ],
+    "best_time_to_visit": "November to February",
+    "entry_fee": "THB 500 (~USD $15)",
+    "opening_hours": "08:30 AM - 03:30 PM daily",
+    "tourist_tips": "Strict dress codes apply: no sleeveless shirts, short skirts, shorts, or tight clothing are allowed inside.",
+    "nearby_attractions": [
+      "Wat Pho (Temple of Reclining Buddha)",
+      "Wat Arun (Temple of Dawn)"
+    ],
+    "official_website": "https://www.royalgrandpalace.th/"
+  }
+}

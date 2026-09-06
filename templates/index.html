@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmark Lens AI - Professional Landmark Detection</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet.js Map CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <!-- Custom Bespoke Styles -->
+    <link rel="stylesheet" href="/static/css/style.css?v=2.4">
+</head>
+<body class="dark-theme">
+    <!-- Cinematic Overlays -->
+    <canvas id="globe-bg-canvas" class="globe-bg-canvas"></canvas>
+    <div class="faint-grid-overlay"></div>
+    <div class="grain-noise-overlay"></div>
+
+    <!-- Page Loading Animation Screen -->
+    <div id="page-loader" class="loader-overlay">
+        <div class="loader-content">
+            <div class="spinner-ring">
+                <div class="ring-core"></div>
+            </div>
+            <h1 class="loader-title">Landmark Lens <span class="accent-text">AI</span></h1>
+            <p class="loader-subtitle">Loading Deep Learning Models...</p>
+        </div>
+    </div>
+
+    <!-- Background Aurora Glow Blobs -->
+    <div class="aurora-glow blob-1"></div>
+    <div class="aurora-glow blob-2"></div>
+    <div class="aurora-glow blob-3"></div>
+
+    <div class="app-container">
+        <!-- Dashboard Header -->
+        <header class="main-header glass-card">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                <div class="logo-text">
+                    <h1>Landmark Lens <span class="accent-text">AI</span></h1>
+                    <span class="logo-tag">EfficientNetB0 Edition</span>
+                </div>
+            </div>
+            <div class="header-status">
+                <div class="status-pill active" id="system-status">
+                    <span class="status-dot"></span>
+                    <span class="status-label">Model: Loading</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace Dashboard Grid -->
+        <main class="dashboard-grid">
+            <!-- Left Panel: Input & Controls -->
+            <section class="left-panel">
+                <!-- Upload & Camera Control Center -->
+                <div class="glass-card control-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-camera"></i> Capture & Predict</h2>
+                        <p class="card-subtitle">Upload a photo, snap from webcam, or pick a sample</p>
+                    </div>
+
+                    <!-- Input Modes Selector Tabs -->
+                    <div class="tab-selector">
+                        <button class="tab-btn active" id="tab-upload" onclick="switchInputMode('upload')">
+                            <i class="fa-solid fa-file-arrow-up"></i> File Upload
+                        </button>
+                        <button class="tab-btn" id="tab-camera" onclick="switchInputMode('camera')">
+                            <i class="fa-solid fa-webcam"></i> Live Camera
+                        </button>
+                    </div>
+
+                    <!-- Mode 1: Drag and Dropzone -->
+                    <div class="input-mode-container active" id="mode-upload">
+                        <div class="dropzone" id="dropzone">
+                            <input type="file" id="file-input" accept="image/*" style="display: none;" multiple>
+                            <div class="dropzone-prompt">
+                                <i class="fa-solid fa-cloud-arrow-up cloud-icon"></i>
+                                <p class="primary-prompt">Drag & Drop image here</p>
+                                <p class="secondary-prompt">or <span class="browse-link">browse files</span></p>
+                                <span class="file-limits">Supports JPG, PNG, WEBP (Max 16MB)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mode 2: Webcam Stream -->
+                    <div class="input-mode-container" id="mode-camera">
+                        <div class="camera-stream-box">
+                            <video id="webcam" autoplay playsinline></video>
+                            <canvas id="photo-canvas" style="display: none;"></canvas>
+                            <div class="camera-placeholder" id="camera-placeholder">
+                                <i class="fa-solid fa-video-slash"></i>
+                                <p>Camera access inactive</p>
+                                <button class="action-btn" onclick="startCamera()"><i class="fa-solid fa-power-off"></i> Initialize Camera</button>
+                            </div>
+                            <div class="camera-controls" style="display: none;" id="camera-controls">
+                                <button class="capture-btn" onclick="capturePhoto()"><i class="fa-solid fa-circle-dot"></i> Snap Photo</button>
+                                <button class="action-btn secondary" onclick="stopCamera()"><i class="fa-solid fa-circle-stop"></i> Stop</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Selected Image Previewer Panel -->
+                    <div class="preview-panel" id="preview-panel" style="display: none;">
+                        <!-- Single Image Preview -->
+                        <div class="preview-wrapper" id="single-preview-wrapper">
+                            <img id="image-preview" src="#" alt="Upload Preview">
+                            <div class="scan-bar" id="scan-bar"></div>
+                            <div class="processing-overlay" id="processing-overlay">
+                                <div class="overlay-spinner"></div>
+                                <p>Extracting Features...</p>
+                            </div>
+                        </div>
+
+                        <!-- Batch Previews Grid -->
+                        <div id="batch-preview-container" class="batch-preview-grid" style="display: none;"></div>
+
+                        <div class="preview-actions">
+                            <button class="action-btn delete-btn" onclick="resetPreview()"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            <button class="action-btn predict-btn" id="btn-predict" onclick="runPrediction()"><i class="fa-solid fa-wand-magic-sparkles"></i> Classify Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Sample Gallery Card -->
+                <div class="glass-card gallery-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-images"></i> Sample Gallery</h2>
+                        <p class="card-subtitle">Quickly test the system using representative landmarks</p>
+                    </div>
+                    <div class="gallery-scroll-container">
+                        <div class="gallery-grid">
+                            <div class="gallery-item" onclick="loadSample('Taj_Mahal')">
+                                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=150&q=80" alt="Taj Mahal">
+                                <span class="gallery-label">Taj Mahal</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Eiffel_Tower')">
+                                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=150&q=80" alt="Eiffel Tower">
+                                <span class="gallery-label">Eiffel Tower</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Colosseum')">
+                                <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=150&q=80" alt="Colosseum">
+                                <span class="gallery-label">Colosseum</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Pyramids_of_Giza')">
+                                <img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=150&q=80" alt="Pyramids Giza">
+                                <span class="gallery-label">Pyramids Giza</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Statue_of_Liberty')">
+                                <img src="https://images.unsplash.com/photo-1524008279394-3a9414322680?auto=format&fit=crop&w=150&q=80" alt="Liberty Statue">
+                                <span class="gallery-label">Liberty Statue</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Machu_Picchu')">
+                                <img src="https://images.unsplash.com/photo-1509024644558-2f56ce76c490?auto=format&fit=crop&w=150&q=80" alt="Machu Picchu">
+                                <span class="gallery-label">Machu Picchu</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Great_Wall_of_China')">
+                                <img src="https://images.unsplash.com/photo-1508807526345-15e9b7f430dd?auto=format&fit=crop&w=150&q=80" alt="Great Wall">
+                                <span class="gallery-label">Great Wall</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Sydney_Opera_House')">
+                                <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=150&q=80" alt="Opera House">
+                                <span class="gallery-label">Opera House</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Stonehenge')">
+                                <img src="https://images.unsplash.com/photo-1599833613876-4d2d48a3c530?auto=format&fit=crop&w=150&q=80" alt="Stonehenge">
+                                <span class="gallery-label">Stonehenge</span>
+                            </div>
+                            <div class="gallery-item" onclick="loadSample('Golden_Gate_Bridge')">
+                                <img src="https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?auto=format&fit=crop&w=150&q=80" alt="Golden Gate">
+                                <span class="gallery-label">Golden Gate</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Leaflet Interactive Map Card -->
+                <div class="glass-card map-card">
+                    <div class="card-header border-bottom">
+                        <h2><i class="fa-solid fa-map-location-dot"></i> Geographic Location & 360° View</h2>
+                        <span class="coordinates-label" id="res-coordinates">LAT: --, LNG: --</span>
+                    </div>
+                    <div class="map-wrapper">
+                        <div id="landmark-map"></div>
+                        <div id="map-streetview-container" class="map-streetview-layer" style="display: none;">
+                            <iframe id="map-streetview-iframe" src="about:blank" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div id="map-weather-overlay" class="map-weather-overlay-layer"></div>
+                        <div class="map-overlay-controls">
+                            <button class="map-ctrl-btn active" id="btn-map-street" onclick="switchMapStyle('street')">Map</button>
+                            <button class="map-ctrl-btn" id="btn-map-satellite" onclick="switchMapStyle('satellite')">Satellite</button>
+                            <button class="map-ctrl-btn" id="btn-map-panorama" onclick="switchMapStyle('panorama')"><i class="fa-solid fa-vr-cardboard"></i> 360° View</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Results & AI Outputs -->
+            <section class="right-panel">
+                <!-- Fallback/Empty State -->
+                <div class="glass-card empty-state" id="results-empty-state">
+                    <i class="fa-solid fa-radar-snarer empty-icon"></i>
+                    <h3>Awaiting Analysis</h3>
+                    <p>Provide an image on the left panel and click "Classify Image" to initiate landmark extraction using transfer learning.</p>
+                </div>
+
+                <!-- Active Results Panel -->
+                <div class="results-wrapper" id="results-active-panel" style="display: none;">
+                    <!-- Prediction & Confidence Gauge Card -->
+                    <div class="glass-card prediction-output-card">
+                        <div class="prediction-header">
+                            <div>
+                                <h3 id="res-landmark-name">Taj Mahal</h3>
+                                <div class="location-pills">
+                                    <span class="loc-pill" id="res-city"><i class="fa-solid fa-city"></i> Agra</span>
+                                    <span class="loc-pill" id="res-country"><i class="fa-solid fa-location-dot"></i> India</span>
+                                    <span class="loc-pill" id="res-weather-pill" style="display: none;"></span>
+                                </div>
+                            </div>
+                            <div class="confidence-badge">
+                                <span class="badge-value" id="res-confidence">98.5%</span>
+                                <span class="badge-label">Confidence</span>
+                            </div>
+                        </div>
+
+                        <!-- Image Results view with Grad-CAM Toggle -->
+                        <div class="results-visual-container">
+                            <div class="visual-wrapper">
+                                <img id="res-original-image" src="#" alt="Original Image">
+                                <img id="res-heatmap-image" src="#" alt="Grad-CAM Heatmap" style="display: none;">
+                                <div class="visual-label" id="visual-label-mode">Original Input</div>
+                            </div>
+                            <div class="visual-controls">
+                                <button class="toggle-btn active" id="btn-show-original" onclick="toggleVisualMode('original')">Original</button>
+                                <button class="toggle-btn" id="btn-show-heatmap" onclick="toggleVisualMode('heatmap')">Grad-CAM Heatmap</button>
+                            </div>
+                        </div>
+
+                        <!-- Top 5 predictions bars -->
+                        <div class="top-predictions-section">
+                            <h4>Top Predictions</h4>
+                            <div class="predictions-list" id="res-predictions-list">
+                                <!-- Populated dynamically by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comprehensive Landmark Metadata Card -->
+                    <div class="glass-card metadata-card" id="landmark-metadata-card">
+                        <div class="card-header border-bottom">
+                            <h2><i class="fa-solid fa-circle-info"></i> Architectural & Historical Dossier</h2>
+                        </div>
+                        
+                        <!-- Metadata Tabs -->
+                        <div class="tab-selector border-bottom">
+                            <button class="tab-btn active" id="tab-history" onclick="switchMetaTab('history')">History</button>
+                            <button class="tab-btn" id="tab-architecture" onclick="switchMetaTab('architecture')">Architecture</button>
+                            <button class="tab-btn" id="tab-tourist" onclick="switchMetaTab('tourist')">Tourist Info</button>
+                            <button class="tab-btn" id="tab-virtual360" onclick="switchMetaTab('virtual360')"><i class="fa-solid fa-vr-cardboard"></i> 360° Virtual Tour</button>
+                        </div>
+
+                        <div class="meta-content-wrapper">
+                            <!-- Tab Content: History -->
+                            <div class="meta-tab-content active" id="meta-history">
+                                <h3 class="meta-title">Historical Background</h3>
+                                <p id="md-history-text">Historical details will load here...</p>
+                                <div class="facts-block">
+                                    <h4>Key Facts</h4>
+                                    <ul id="md-facts-list">
+                                        <!-- Fact items -->
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content: Architecture -->
+                            <div class="meta-tab-content" id="meta-architecture">
+                                <div class="spec-grid">
+                                    <div class="spec-item">
+                                        <span class="spec-label">Built Year</span>
+                                        <span class="spec-val" id="spec-built">1648</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-label">Architect</span>
+                                        <span class="spec-val" id="spec-architect">Ustad Ahmad Lahori</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-label">Architectural Style</span>
+                                        <span class="spec-val" id="spec-style">Mughal</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-label">UNESCO Status</span>
+                                        <span class="spec-val" id="spec-unesco">UNESCO World Heritage Site</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content: Tourist -->
+                            <div class="meta-tab-content" id="meta-tourist">
+                                <div class="tourist-details">
+                                    <div class="info-row">
+                                        <i class="fa-solid fa-clock"></i>
+                                        <div>
+                                            <strong>Opening Hours</strong>
+                                            <span id="tr-hours">Open sunrise to sunset</span>
+                                        </div>
+                                    </div>
+                                    <div class="info-row">
+                                        <i class="fa-solid fa-ticket"></i>
+                                        <div>
+                                            <strong>Entry Fee</strong>
+                                            <span id="tr-fee">₹50 (Indian), ₹1100 (Foreigner)</span>
+                                        </div>
+                                    </div>
+                                    <div class="info-row">
+                                        <i class="fa-solid fa-calendar-check"></i>
+                                        <div>
+                                            <strong>Best Time to Visit</strong>
+                                            <span id="tr-best-time">October to March</span>
+                                        </div>
+                                    </div>
+                                    <div class="tips-box">
+                                        <strong><i class="fa-solid fa-lightbulb"></i> Tourist Tips:</strong>
+                                        <p id="tr-tips">Arrive early to avoid crowd.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content: 360° Virtual Tour -->
+                            <div class="meta-tab-content" id="meta-virtual360">
+                                <div class="virtual360-container">
+                                    <div class="virtual360-header">
+                                        <h4><i class="fa-solid fa-vr-cardboard"></i> Interactive 360° Virtual Exploration</h4>
+                                        <p>Explore this landmark in high-definition 360° panorama & 3D space</p>
+                                    </div>
+                                    <div class="virtual360-iframe-wrapper">
+                                        <iframe id="tab-streetview-iframe" src="about:blank" width="100%" height="320" frameborder="0" style="border:0; border-radius: 14px;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                    <div class="virtual360-actions">
+                                        <a id="btn-google-earth" href="#" target="_blank" class="action-btn secondary font-sm"><i class="fa-solid fa-earth-americas"></i> Explore in Google Earth 3D</a>
+                                        <a id="btn-google-streetview-external" href="#" target="_blank" class="action-btn font-sm"><i class="fa-solid fa-street-view"></i> Fullscreen 360° Street View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Stats & System Diagnostics Grid -->
+        <section class="diagnostics-section glass-card">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-server"></i> System Diagnostics & Model Parameters</h2>
+                <p>Real-time statistics of the local neural network deployment</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-label">Model Architecture</span>
+                    <span class="stat-value" id="stat-model-type">EfficientNetB0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Classes Configured</span>
+                    <span class="stat-value" id="stat-classes-count">200+</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Prediction Cutoff</span>
+                    <span class="stat-value" id="stat-threshold">30%</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Inference Engine</span>
+                    <span class="stat-value">TensorFlow Keras</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Prediction History Area -->
+        <section class="history-section glass-card">
+            <div class="section-header-row">
+                <div>
+                    <h2><i class="fa-solid fa-clock-rotate-left"></i> Prediction History</h2>
+                    <p>Recent images uploaded and classified during this session</p>
+                </div>
+                <button class="action-btn delete-btn font-sm" onclick="clearHistory()"><i class="fa-solid fa-circle-xmark"></i> Clear History</button>
+            </div>
+            <div class="history-list-wrapper">
+                <div class="history-empty" id="history-empty">
+                    <p>No predictions recorded yet.</p>
+                </div>
+                <div class="history-grid" id="history-grid" style="display: none;">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <p>Landmark Lens AI &copy; 2026. Made with Vanilla CSS, Flask & TensorFlow.js.</p>
+        </footer>
+    </div>
+
+    <!-- Leaflet.js Mapping Library -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Three.js 3D Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Core JavaScript logic -->
+    <script src="/static/js/main.js?v=2.4"></script>
+</body>
+</html>

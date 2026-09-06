@@ -1,0 +1,77 @@
+# ===========================
+# Python Environment & Cache
+# ===========================
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.egg-info/
+.eggs/
+dist/
+build/
+.Python
+
+# ===========================
+# Dataset & Large Data Files
+# ===========================
+dataset/
+pet_dataset/
+clean_dataset/
+manual_review/
+data/prediction_history.db
+
+# ===========================
+# Trained Model Files
+# ===========================
+# Uncomment below to exclude model from git (recommended for large models)
+# model/landmark_model.keras
+# landmark_model.keras
+pet_face_classifier.h5
+
+# ===========================
+# Uploaded Files (Runtime)
+# ===========================
+static/uploads/*
+!static/uploads/.gitkeep
+
+# ===========================
+# Jupyter Notebook Checkpoints
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# IDE & Editor Files
+# ===========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# OS-Specific Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===========================
+# Logs & Temporary Files
+# ===========================
+*.log
+*.tmp
+*.temp
+scratch/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.production
