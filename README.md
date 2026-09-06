@@ -224,4 +224,5 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-*Built with ❤️ as an AI/ML portfolio project*
+#Author
+Develop by Saroj Chaudhary
